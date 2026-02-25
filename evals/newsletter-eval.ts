@@ -463,7 +463,7 @@ async function main() {
   });
 
   // Print detailed evaluation results
-  for (const evalRun of experiment.evaluationRuns) {
+  for (const evalRun of experiment.evaluationRuns ?? []) {
     const r = evalRun.result as { score?: number; label?: string; explanation?: string } | undefined;
     console.log(`\n[EVAL] ${evalRun.name} (run ${evalRun.experimentRunId}) | score: ${r?.score} | label: ${r?.label}`);
     if (r?.explanation) {
