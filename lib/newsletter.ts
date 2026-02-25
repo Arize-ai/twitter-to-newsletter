@@ -1,42 +1,6 @@
 import Anthropic from '@anthropic-ai/sdk';
 import { Tweet } from '@/types';
-import fs from 'fs/promises';
-import path from 'path';
-
-const TEMPLATE_PATH = path.join(process.cwd(), 'template.md');
-
-const DEFAULT_TEMPLATE = `# Monthly Content Roundup
-
-Hi there,
-
-It's your friendly monthly content roundup from @{username}. Check out the highlights from [month]!
-
----
-
-[Synthesized content from tweets, grouped by theme]
-
----
-
-## Useful Links & Updates
-
-*Relevant links mentioned in or related to the tweets above.*
-
-## Upcoming Events
-
-*Any events mentioned in the tweets, or a placeholder if none.*
-
----
-
-*Thanks for reading! See you next month.*`;
-
-async function readTemplate(): Promise<string> {
-  try {
-    return await fs.readFile(TEMPLATE_PATH, 'utf-8');
-  } catch {
-    await fs.writeFile(TEMPLATE_PATH, DEFAULT_TEMPLATE, 'utf-8');
-    return DEFAULT_TEMPLATE;
-  }
-}
+import { readTemplate } from '@/lib/template';
 
 const anthropic = new Anthropic();
 
