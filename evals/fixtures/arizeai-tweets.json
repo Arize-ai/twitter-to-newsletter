@@ -1,0 +1,1803 @@
+[
+  {
+    "id": "2026386677825245465",
+    "text": "Arize AI was just named to the Agentic List 2026!\n\nPresented by the AI Agent Conference and curated by @simonchannet at @FirsthandVC in partnership with NYSE Wired and @theCUBE, the award recognizes the top 120 agentic AI companies shaping the future through autonomous, intelligent systems that transform enterprise operations.",
+    "created_at": "2026-02-24T20:00:07.000Z",
+    "author_id": "1219862691109429248",
+    "public_metrics": {
+      "retweet_count": 0,
+      "reply_count": 0,
+      "like_count": 1,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 63
+    }
+  },
+  {
+    "id": "2026341587509551589",
+    "text": "Alyx 2.0 is live.\n\nAn AI engineering agent built into Arize AX that can reason across multi-step workflows and execute autonomously.\n\n↳ Error analysis\n↳ Prompt experimentation\n↳ Trace debugging\n\nNo more stitching everything together by hand.\n\nMost AI assistants in dev tools follow one decision tree from the top. Alyx breaks down complex tasks, maintains context, and acts across your entire AI lifecycle.\n\nLearn more on the blog: https://t.co/oPsnhn7UUz",
+    "created_at": "2026-02-24T17:00:56.000Z",
+    "author_id": "1219862691109429248",
+    "public_metrics": {
+      "retweet_count": 4,
+      "reply_count": 0,
+      "like_count": 10,
+      "quote_count": 1,
+      "bookmark_count": 2,
+      "impression_count": 889
+    }
+  },
+  {
+    "id": "2025978218160009703",
+    "text": "New tutorial just dropped: 👀 how Google ADK works with Arize AX to power complex RAG flows with visibility for hallucination detection, retrieval quality, and answer-quality https://t.co/jOohONE0Ab https://t.co/BafpI4fT3c",
+    "created_at": "2026-02-23T16:57:02.000Z",
+    "author_id": "1219862691109429248",
+    "public_metrics": {
+      "retweet_count": 0,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "bookmark_count": 1,
+      "impression_count": 200
+    },
+    "urls": [
+      {
+        "display_url": "arize.com/blog/mastering…",
+        "expanded_url": "https://arize.com/blog/mastering-production-rag-with-google-adk-and-arize-ax-for-enterprise-knowledge-systems/",
+        "title": "Mastering Production RAG with Google ADK and Arize AX for Enterprise Knowledge Systems"
+      }
+    ]
+  },
+  {
+    "id": "2025255591405662708",
+    "text": "Join us next week in Seattle 🛠️\n\nHands-on workshop with AWS: build, evaluate &amp; monitor AI agents in production using Strands SDK, Bedrock Agentcore &amp; Arize AX.\n\nFeb 26 · 5–7 PM · Food provided\nLimited spots → https://t.co/v02SDez7A6",
+    "created_at": "2026-02-21T17:05:35.000Z",
+    "author_id": "1219862691109429248",
+    "public_metrics": {
+      "retweet_count": 0,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 209
+    },
+    "urls": [
+      {
+        "display_url": "lu.ma/n34vo5el",
+        "expanded_url": "http://lu.ma/n34vo5el",
+        "title": "Hands-on Workshop - Observing and Evaluating Agentic Workflows with AWS and Arize AX · Luma"
+      }
+    ]
+  },
+  {
+    "id": "2024906392877105627",
+    "text": "https://t.co/n2LNtuhnJU\nhttps://t.co/pMoTzlIFWL\nhttps://t.co/K9quas7NgP\nhttps://t.co/NpouFkW2X2",
+    "created_at": "2026-02-20T17:57:59.000Z",
+    "author_id": "1219862691109429248",
+    "public_metrics": {
+      "retweet_count": 1,
+      "reply_count": 0,
+      "like_count": 4,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 121
+    },
+    "urls": [
+      {
+        "display_url": "arize.com/docs/ax/observ…",
+        "expanded_url": "https://arize.com/docs/ax/observe/tutorial/tutorial",
+        "title": "Tracing Tutorial - Arize AX Docs"
+      },
+      {
+        "display_url": "arize.com/docs/ax/observ…",
+        "expanded_url": "https://arize.com/docs/ax/observe/tutorial/your-first-traces",
+        "title": "Your First Traces - Arize AX Docs"
+      },
+      {
+        "display_url": "arize.com/docs/ax/observ…",
+        "expanded_url": "https://arize.com/docs/ax/observe/tutorial/annotations-and-evaluations",
+        "title": "Annotations & Evaluations - Arize AX Docs"
+      },
+      {
+        "display_url": "arize.com/docs/ax/observ…",
+        "expanded_url": "https://arize.com/docs/ax/observe/tutorial/sessions",
+        "title": "Sessions - Arize AX Docs"
+      }
+    ]
+  },
+  {
+    "id": "2024906391715283303",
+    "text": "We just released a new Tracing tutorial for Arize AX: a practical walkthrough for instrumenting, inspecting, and evaluating your AI applications with end-to-end traces.\n\nIf you’re building agents/LLM apps, it’s hard to improve what you can’t see. This tutorial shows how to go from those black-box outputs to fully traceable, debuggable workflows. It covers:\n\n🔍 Sending your first traces: Instrument your application and start capturing spans, inputs, outputs, and metadata in just a few steps\n\n🧵 Understanding trace structure: Break down agents into spans for models, tools, retrieval, and custom logic so you can see exactly what happened\n\n📝 Adding annotations & evaluations:  Layer in human feedback, code-based checks, or LLM evaluators directly on traces\n\n🔄 Analyzing sessions end-to-end: Group traces into sessions to debug multi-step interactions and user journeys\n\nGet started below ⬇️",
+    "created_at": "2026-02-20T17:57:59.000Z",
+    "author_id": "1219862691109429248",
+    "public_metrics": {
+      "retweet_count": 1,
+      "reply_count": 2,
+      "like_count": 4,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 207
+    }
+  },
+  {
+    "id": "2024583296605442262",
+    "text": "Thanks to everyonewho came out to @joinstationf in Paris tonight to hear @dat_attacked, Jen Person, and JL de Morlhon and to our friends at @gokoyeb and @docker for organizing. https://t.co/NAWfKNUXAE",
+    "created_at": "2026-02-19T20:34:07.000Z",
+    "author_id": "1219862691109429248",
+    "public_metrics": {
+      "retweet_count": 1,
+      "reply_count": 2,
+      "like_count": 5,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 180
+    }
+  },
+  {
+    "id": "2024564441321496952",
+    "text": "RT @arizeai: In our latest Evals Series webinar, we shared an Evaluation 101 primer for teams building agents.\n\nWe covered the full eval wo…",
+    "created_at": "2026-02-19T19:19:12.000Z",
+    "author_id": "1219862691109429248",
+    "public_metrics": {
+      "retweet_count": 4,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 0
+    },
+    "retweet": {
+      "original_author_username": "arizeai",
+      "original_author_name": "Arize AI",
+      "original_text": "In our latest Evals Series webinar, we shared an Evaluation 101 primer for teams building agents.\n\nWe covered the full eval workflow: starting from real data, defining specific + actionable metrics, and using LLM-as-a-Judge thoughtfully (prompt design, model selection, tradeoffs).\n\nWe wrapped with a live Arize AX walkthrough — building an evaluator and running it against real trace data to show how evals plug directly into agent reliability workflows.\n\nWatch the recording here:\nhttps://t.co/PpbUXYZbd8"
+    }
+  },
+  {
+    "id": "2024564412624097662",
+    "text": "In our latest Evals Series webinar, we shared an Evaluation 101 primer for teams building agents.\n\nWe covered the full eval workflow: starting from real data, defining specific + actionable metrics, and using LLM-as-a-Judge thoughtfully (prompt design, model selection, tradeoffs).\n\nWe wrapped with a live Arize AX walkthrough — building an evaluator and running it against real trace data to show how evals plug directly into agent reliability workflows.\n\nWatch the recording here:\nhttps://t.co/PpbUXYZbd8",
+    "created_at": "2026-02-19T19:19:05.000Z",
+    "author_id": "1219862691109429248",
+    "public_metrics": {
+      "retweet_count": 4,
+      "reply_count": 0,
+      "like_count": 5,
+      "quote_count": 0,
+      "bookmark_count": 1,
+      "impression_count": 235
+    }
+  },
+  {
+    "id": "2024524538592317827",
+    "text": "“This provides a way for business users to come in and interrogate a decision, just like they would pop into somebody’s office.” — Austin Facer, @AFCU\n\nHow AFCU built a decision explainer w/ parallel LLM workers + end-to-end tracing in Arize AX: https://t.co/JTszGaBYmn https://t.co/dfgiJHF49v",
+    "created_at": "2026-02-19T16:40:38.000Z",
+    "author_id": "1219862691109429248",
+    "public_metrics": {
+      "retweet_count": 0,
+      "reply_count": 0,
+      "like_count": 2,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 136
+    },
+    "urls": [
+      {
+        "display_url": "arize.com/blog/how-ameri…",
+        "expanded_url": "https://arize.com/blog/how-america-first-credit-union-built-a-genai-decision-explainer-with-tracing-that-scales/",
+        "title": "How America First Credit Union Built a GenAI “Decision Explainer” — With Tracing That Scales"
+      }
+    ]
+  },
+  {
+    "id": "2024177820600246765",
+    "text": "We shipped some great stuff last week! Here are the highlights:\n\n➡️ Claude Opus 4.6 is now available on AWS Bedrock - 1M token context, built for complex enterprise tasks, coding, and agentic workflows\n\n➡️ Eval traces are now linked directly from playground experiment results, so you can jump straight to span-level trace data for debugging without leaving your workflow\n\n➡️ Full RBAC lineage support now covers prompts, evaluators, and annotation configs, with hierarchical enforcement across spaces and accounts\n\n➡️ Text annotations can now be updated programmatically via the SDK, enabling bulk updates and automated annotation pipelines at scale\n\n➡️ The experiments table now shows prompt name, version, and a hover preview of system/user messages, with one-click navigation back to the playground with the original prompt loaded\n\nPlus many more! Check it all out: https://t.co/IcyKfADL24",
+    "created_at": "2026-02-18T17:42:54.000Z",
+    "author_id": "1219862691109429248",
+    "public_metrics": {
+      "retweet_count": 0,
+      "reply_count": 1,
+      "like_count": 2,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 117
+    }
+  },
+  {
+    "id": "2023869099055739060",
+    "text": "https://t.co/WruzeJ7dqo",
+    "created_at": "2026-02-17T21:16:09.000Z",
+    "author_id": "1219862691109429248",
+    "public_metrics": {
+      "retweet_count": 0,
+      "reply_count": 0,
+      "like_count": 1,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 60
+    },
+    "urls": [
+      {
+        "display_url": "arize.com/docs/ax/develo…",
+        "expanded_url": "https://arize.com/docs/ax/develop/tutorial/defining-the-dataset",
+        "title": "Defining the Dataset That Powers Your Experiments - Arize AX Docs"
+      }
+    ]
+  },
+  {
+    "id": "2023869087244505209",
+    "text": "We just released a new Datasets & Experiments tutorial for Arize AX — a practical walkthrough for running structured experiments on your AI applications.\n\nIf you’re iterating on prompts, models, or agent logic, changes can feel “better” without actually being better. This tutorial shows how to move from guesswork to repeatable evaluation. It covers:\n\n• Defining structured datasets 📊 - Create curated datasets from real examples so you can benchmark the behaviors that actually matter\n\n• Running experiments with code-based evaluators 💻 - Add fast, deterministic checks against ground truth\n\n• Running experiments with LLM-as-a-Judge 🧠 - Score outputs on more subjective criteria like helpfulness, actionability, or safety\n\n• Building an iteration workflow 🔄 - Compare experiment runs, analyze results, and systematically validate changes before pushing to production.\n\nIf you’re building agents or LLM applications and want a disciplined way to test improvements, prevent regressions, and track quality over time, this tutorial walks through the full Arize AX workflow end to end!\n\nGet started below ⬇️",
+    "created_at": "2026-02-17T21:16:06.000Z",
+    "author_id": "1219862691109429248",
+    "public_metrics": {
+      "retweet_count": 0,
+      "reply_count": 1,
+      "like_count": 1,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 101
+    }
+  },
+  {
+    "id": "2023834211573227952",
+    "text": "At conversational forms pioneer @typeform, \"evaluations are part of the product itself—not just a back-end task,\" notes Senior Data Scientist Marta Lorens. They're are also a team sport. ▶️ Learn about Typeform's approach to agent engineering and see how they leverage Arize AX and @awscloud: https://t.co/TzXKMcuL1i",
+    "created_at": "2026-02-17T18:57:31.000Z",
+    "author_id": "1219862691109429248",
+    "public_metrics": {
+      "retweet_count": 0,
+      "reply_count": 0,
+      "like_count": 3,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 138
+    }
+  },
+  {
+    "id": "2023428930838122602",
+    "text": "Our next community reading will dive into \"CVE-Bench: A Benchmark for AI Agents' Ability to Exploit Real-World Web Application Vulnerabilities\" with authors @maxYuxuanZhu @ddkang of @UofIllinois RSVP: https://t.co/WU3GABjfU5 https://t.co/Rq1bVtfWSg",
+    "created_at": "2026-02-16T16:07:05.000Z",
+    "author_id": "1219862691109429248",
+    "public_metrics": {
+      "retweet_count": 0,
+      "reply_count": 0,
+      "like_count": 1,
+      "quote_count": 0,
+      "bookmark_count": 1,
+      "impression_count": 119
+    },
+    "urls": [
+      {
+        "display_url": "luma.com/92q7z44z",
+        "expanded_url": "https://luma.com/92q7z44z",
+        "title": "Community Paper Reading: CVE-Bench: A Benchmark for AI Agents' Ability to Exploit Real-World Web Application Vulnerabilities · Zoom · Luma"
+      }
+    ]
+  },
+  {
+    "id": "2022038091800940672",
+    "text": "Start here: https://t.co/5m4DsdFPcr",
+    "created_at": "2026-02-12T20:00:23.000Z",
+    "author_id": "1219862691109429248",
+    "public_metrics": {
+      "retweet_count": 0,
+      "reply_count": 0,
+      "like_count": 1,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 70
+    },
+    "urls": [
+      {
+        "display_url": "arize.com/docs/ax/evalua…",
+        "expanded_url": "https://arize.com/docs/ax/evaluate/tutorial"
+      }
+    ]
+  },
+  {
+    "id": "2022038079767548226",
+    "text": "We just released a new Evaluations tutorial for Arize AX — get your evals up and running in minutes ✨\n\nYou can configure both LLM-as-a-Judge and code-based evaluators directly from the UI. Define your criteria, attach them to a project, and start scoring outputs right away. No heavy setup required!\n\nEvaluators are reusable across projects, so once you define your quality standards (correctness, actionability, safety, etc.), you can apply them consistently wherever you need them.\n\nIf you're building agents or LLM agents and applications and want systematic quality checks, this walkthrough shows exactly how to set it up.\n\nGet started below 👇",
+    "created_at": "2026-02-12T20:00:20.000Z",
+    "author_id": "1219862691109429248",
+    "public_metrics": {
+      "retweet_count": 0,
+      "reply_count": 1,
+      "like_count": 2,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 138
+    }
+  },
+  {
+    "id": "2021952246221877327",
+    "text": "Join @schavalii next week for evals 101 and watch her cook with a code-based example. RSVP: https://t.co/r7xf6PhXFB https://t.co/DxqQDRS0hD",
+    "created_at": "2026-02-12T14:19:16.000Z",
+    "author_id": "1219862691109429248",
+    "public_metrics": {
+      "retweet_count": 0,
+      "reply_count": 0,
+      "like_count": 2,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 122
+    },
+    "urls": [
+      {
+        "display_url": "luma.com/gtnrkydc",
+        "expanded_url": "https://luma.com/gtnrkydc",
+        "title": "Introduction to Arize AX Evals · Zoom · Luma"
+      }
+    ]
+  },
+  {
+    "id": "2021667688746299874",
+    "text": "RT @ArizePhoenix: We just published a new Get Started with Phoenix Quickstart in TypeScript 🚀\n\nUsing a @mastra multi-agent system, it walks…",
+    "created_at": "2026-02-11T19:28:32.000Z",
+    "author_id": "1219862691109429248",
+    "public_metrics": {
+      "retweet_count": 6,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 0
+    },
+    "retweet": {
+      "original_author_username": "ArizePhoenix",
+      "original_author_name": "arize-phoenix",
+      "original_text": "We just published a new Get Started with Phoenix Quickstart in TypeScript 🚀\n\nUsing a @mastra multi-agent system, it walks through the workflow we recommend for improving agent apps in a way you can measure + validate:\n\n🔹 Trace agents to capture spans across execution flow, tool calls, and LLM calls\n🔹 Define an eval to score outputs and label failures, and generate explanations \n🔹 Build a dataset of failure cases so you have concrete data to test iterations\n🔹 Run experiments & Test your Prompts to compare agent versions on the same inputs and verify improvements\n\nFollow the full trace → eval → iterate loop end to end with @ArizePhoenix \n\nTry it here:"
+    }
+  },
+  {
+    "id": "2021572722682441919",
+    "text": "If you’re using @openrouter to power your app or agents, you can now use Broadcast to automatically send traces from your requests to Arize AX for tracing, evals, prompt optimization, and more. https://t.co/G3xN0qsbSw https://t.co/Ql0IoFZLan",
+    "created_at": "2026-02-11T13:11:10.000Z",
+    "author_id": "1219862691109429248",
+    "public_metrics": {
+      "retweet_count": 0,
+      "reply_count": 0,
+      "like_count": 5,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 185
+    },
+    "urls": [
+      {
+        "display_url": "openrouter.ai/docs/guides/fe…",
+        "expanded_url": "https://openrouter.ai/docs/guides/features/broadcast/arize",
+        "title": "Broadcast to Arize AI - Send Traces to Arize"
+      }
+    ]
+  },
+  {
+    "id": "2021269718699815322",
+    "text": "New in Arize AX this week!\n\n➡️ Programmatic prompt management: Full REST API coverage for prompts, including create, list, get, and delete endpoints. Build and version prompts systematically with reusability across projects.\n\n➡️ Improved trace debugging: Enhanced span filtering API lets you query trace data with complex conditions to find specific LLM calls, tool invocations, or retrieval operations. The span table now supports click-to-open details and bulk selection. Experiment runs link directly to their full observability traces.\n\n➡️ Developer experience updates: Escaped curly braces in eval templates so you can include JSON examples without triggering variable errors. Playground sessions automatically capture traces for visibility into your experimentation workflow.\n\nTry it out! https://t.co/3Mgn8vGga1",
+    "created_at": "2026-02-10T17:07:08.000Z",
+    "author_id": "1219862691109429248",
+    "public_metrics": {
+      "retweet_count": 0,
+      "reply_count": 0,
+      "like_count": 2,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 179
+    }
+  },
+  {
+    "id": "2021240720200548767",
+    "text": "\"We needed to see the traces in a hierarchical format—within a single run, what prompts are we sending, what tool calls are being invoked, and is the output structure correct? This depth is essential for building the high-performance operations our customers expect.\"\n\nThomas Goodman, Principal Software Development Engineer, @CVSHealth, explains the importance of AI-specialized observability. Watch the full interview: https://t.co/zLnz3DRfwH",
+    "created_at": "2026-02-10T15:11:55.000Z",
+    "author_id": "1219862691109429248",
+    "public_metrics": {
+      "retweet_count": 0,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 140
+    }
+  },
+  {
+    "id": "2020908470153732157",
+    "text": "RT @ArizePhoenix: Just Added: TypeScript tutorial for structured eval workflows in Phoenix 📊\n\nFollow an end-to-end TS tutorial featuring a…",
+    "created_at": "2026-02-09T17:11:40.000Z",
+    "author_id": "1219862691109429248",
+    "public_metrics": {
+      "retweet_count": 2,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 0
+    },
+    "retweet": {
+      "original_author_username": "ArizePhoenix",
+      "original_author_name": "arize-phoenix",
+      "original_text": "Just Added: TypeScript tutorial for structured eval workflows in Phoenix 📊\n\nFollow an end-to-end TS tutorial featuring a @LangChain application that shows how to:\n\n🔺 Use real trace data from your app runs as the basis for evaluating LLM output\n🔺 Build evaluators (built-in or custom) that score outputs on correctness, relevance, and other quality criteria\n🔺 Run those evaluators with Phoenix’s TypeScript eval tooling to produce structured quality metrics you can act on\n\nGo from traced runs to measurable quality metrics with @ArizePhoenix TS evals 🚀"
+    }
+  },
+  {
+    "id": "2020908448192528390",
+    "text": "RT @gokoyeb: 🚀 Join us in Paris on Feb 19 for an evening of talks and demos from leading AI engineers! Catch talks from:\n\nDat Daryl Ngo - A…",
+    "created_at": "2026-02-09T17:11:35.000Z",
+    "author_id": "1219862691109429248",
+    "public_metrics": {
+      "retweet_count": 1,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 0
+    },
+    "retweet": {
+      "original_author_username": "gokoyeb",
+      "original_author_name": "Koyeb",
+      "original_text": "🚀 Join us in Paris on Feb 19 for an evening of talks and demos from leading AI engineers! Catch talks from:\n\nDat Daryl Ngo - AI Architect @arizeai\nJL de Morlhon - VP SWE @Docker\nJen Person - DevRel Engineer @gokoyeb\n\nRSVP (space is limited) 👉 https://t.co/RjQbnT0hd4"
+    }
+  },
+  {
+    "id": "2020817716475724075",
+    "text": "PARIS 🇫🇷 : @dat_attacked will be diving into \"Why Most AI Agents Fail\" at this fun evening event hosted by @gokoyeb and @Docker. Join us for food, drinks and learning (RSVP): https://t.co/dBhmEmPyrB https://t.co/HvHgUD83Gm",
+    "created_at": "2026-02-09T11:11:03.000Z",
+    "author_id": "1219862691109429248",
+    "public_metrics": {
+      "retweet_count": 0,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 119
+    },
+    "urls": [
+      {
+        "display_url": "luma.com/n9h7uqiq",
+        "expanded_url": "https://luma.com/n9h7uqiq",
+        "title": "AI Developer Meetup on Agents & Evaluation · Luma"
+      }
+    ]
+  },
+  {
+    "id": "2020552464685277344",
+    "text": "Learn to build a production-grade multi-agent AI system in one intensive day at this @aicampai event we're co-hosting with @AWS_Partners. RSVP: https://t.co/Z8boTniIIj",
+    "created_at": "2026-02-08T17:37:02.000Z",
+    "author_id": "1219862691109429248",
+    "public_metrics": {
+      "retweet_count": 1,
+      "reply_count": 0,
+      "like_count": 3,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 253
+    },
+    "urls": [
+      {
+        "display_url": "aicamp.ai/event/eventdet…",
+        "expanded_url": "https://www.aicamp.ai/event/eventdetails/W2026021308?utm_source=ailabsf0213arize",
+        "title": "AWS AI Builder Lab (SF) - Craft with AI, Build for AI"
+      }
+    ]
+  },
+  {
+    "id": "2019857070565306449",
+    "text": "RT @ArizePhoenix: New in Phoenix: End-to-End TypeScript tutorial for Datasets &amp; Experiments 🔍📊\n\nDatasets and experiments are essential for…",
+    "created_at": "2026-02-06T19:33:47.000Z",
+    "author_id": "1219862691109429248",
+    "public_metrics": {
+      "retweet_count": 1,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 0
+    },
+    "retweet": {
+      "original_author_username": "ArizePhoenix",
+      "original_author_name": "arize-phoenix",
+      "original_text": "New in Phoenix: End-to-End TypeScript tutorial for Datasets & Experiments 🔍📊\n\nDatasets and experiments are essential for structured iteration—helping you move beyond ad-hoc testing and systematically validate improvements to your AI application.\n\nLearn how to:\n\n➡️ Define structured datasets to iterate on the behaviors and outcomes you care about\n\n➡️ Run experiments with code-based evaluators for fast, deterministic checks against ground truth\n\n➡️ Run experiments using LLM-as-a-Judge to score outputs on subjective quality criteria\n\n➡️ Build an experiments pipeline that supports consistent, repeatable iteration\n\nIf you’re building agents with TypeScript, this walkthrough shows how to reliably test and compare models, prompts, and application changes.\n\nGet started in the docs and follow the full tutorials below ⬇️"
+    }
+  },
+  {
+    "id": "2019857047060353094",
+    "text": "RT @ArizePhoenix: Just Added: Python narrative tutorials for Eval workflows 📊\n\nWe’ve published python guides that walk through an @AgnoAgi…",
+    "created_at": "2026-02-06T19:33:41.000Z",
+    "author_id": "1219862691109429248",
+    "public_metrics": {
+      "retweet_count": 3,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 0
+    },
+    "retweet": {
+      "original_author_username": "ArizePhoenix",
+      "original_author_name": "arize-phoenix",
+      "original_text": "Just Added: Python narrative tutorials for Eval workflows 📊\n\nWe’ve published python guides that walk through an @AgnoAgi application with a full evals workflow: showing you how to measure & iterate on AI quality using real traces and code-driven evaluation.\n\nWith these new tutorials, you will:\n\n➡️ Run evals with built-in templates on real trace data\n\n➡️ Customize your LLM judge endpoint for evaluation flexibility\n\n➡️ Define & run custom eval templates tailored to your app’s needs\n\nWhether you’re scoring accuracy, relevance, or domain-specific criteria, these Python tutorials help you build repeatable, reliable AI quality checks with @ArizePhoenix!"
+    }
+  },
+  {
+    "id": "2019775136082383359",
+    "text": "npm i evals https://t.co/qeyq7xm1XT",
+    "created_at": "2026-02-06T14:08:12.000Z",
+    "author_id": "1219862691109429248",
+    "public_metrics": {
+      "retweet_count": 0,
+      "reply_count": 1,
+      "like_count": 3,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 263
+    }
+  },
+  {
+    "id": "2019456031341048187",
+    "text": "Docs &amp; Tutorial: https://t.co/2ZWKf96OuE",
+    "created_at": "2026-02-05T17:00:12.000Z",
+    "author_id": "1219862691109429248",
+    "public_metrics": {
+      "retweet_count": 0,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 100
+    },
+    "urls": [
+      {
+        "display_url": "arize.com/docs/api-clien…",
+        "expanded_url": "https://arize.com/docs/api-clients/python/version-8/overview",
+        "title": "Overview - Arize AX Docs"
+      }
+    ]
+  },
+  {
+    "id": "2019456019328589844",
+    "text": "We’re excited to announce the release of our best Python SDK to date! This SDK makes it possible to have workflows that are consistent, easily configurable, and optimized for iteration.\n\nHere’s what’s new:\n\n➡️ A single ArizeClient for all workflows — no more dealing with multiple clients that operate differently\n\n➡️ A consistent client.<resource>.<action> interface that makes all capabilities easy to discover and use\n\n➡️ A customizable experience with standardized arguments configurable in code or via environment variables\n\nIf you’re tracing, evaluating, or experimenting with AI applications and agents, our Python SDK helps streamline your workflow.\n\nGet started in the docs & check out the tutorial below for a full walkthrough ⬇️",
+    "created_at": "2026-02-05T17:00:09.000Z",
+    "author_id": "1219862691109429248",
+    "public_metrics": {
+      "retweet_count": 0,
+      "reply_count": 1,
+      "like_count": 0,
+      "quote_count": 0,
+      "bookmark_count": 2,
+      "impression_count": 158
+    }
+  },
+  {
+    "id": "2019366404982706654",
+    "text": "Our next community reading will dive into \"From Benchmarks to Business Impact: Deploying IBM Generalist Agent in Enterprise Production,\" a paper from @IBMResearch. Join us: https://t.co/7f6YLLScAK https://t.co/L1U3R9ysOh",
+    "created_at": "2026-02-05T11:04:03.000Z",
+    "author_id": "1219862691109429248",
+    "public_metrics": {
+      "retweet_count": 0,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 127
+    },
+    "urls": [
+      {
+        "display_url": "luma.com/7c07wkbq",
+        "expanded_url": "https://luma.com/7c07wkbq",
+        "title": "Community Paper Reading: From Benchmarks to Business Impact: Deploying IBM Generalist Agent in Enterprise Production · Luma"
+      }
+    ]
+  },
+  {
+    "id": "2019063640381648918",
+    "text": "\"Because AI is unpredictable, evals move us past the 'this feels okay' stage to ensuring it 'meets our quality bar.' The goal is to keep agents within well-defined workflow boundaries, particularly when handling critical information.\"\n\n➡️ Lagan Khare, Executive Director of Engineering @CVSHealth, highlights how \"evals\" fit into a rigorous approach to technical quality.\n\nCheck out the full interview: https://t.co/zLnz3DRfwH",
+    "created_at": "2026-02-04T15:00:58.000Z",
+    "author_id": "1219862691109429248",
+    "public_metrics": {
+      "retweet_count": 0,
+      "reply_count": 0,
+      "like_count": 1,
+      "quote_count": 0,
+      "bookmark_count": 1,
+      "impression_count": 189
+    }
+  },
+  {
+    "id": "2018731238316716163",
+    "text": "We keep shipping new stuff to Arize AX!\n\n➡️ Labeling Queues now track total assigned records per data cluster, enabling better workload visibility for human annotation workflows.\n\n➡️ Image rendering in JSON fields - Input/output data containing image URLs now displays inline images!\n\n➡️ Tracing and ML Models split into separate navigation sections with dedicated tabs for \"Your Models\" and \"Demos\"\n\n➡️ Anthropic added as a supported provider with automatic tracing and observability through OpenTelemetry instrumentation.\n\nAnd lots more! Check out the full changelog:\nhttps://t.co/fgJahUhFfD",
+    "created_at": "2026-02-03T17:00:08.000Z",
+    "author_id": "1219862691109429248",
+    "public_metrics": {
+      "retweet_count": 0,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 135
+    }
+  },
+  {
+    "id": "2018325452289638612",
+    "text": "Nebulock is on a mission to democratize threat hunting, building agents that hunt in a user's environment.\n\nArize AX is a key part of their toolkit. Per founding AI engineer @roncahlon: “we didn't want just an isolated tool that just focuses on evals or on observability; we wanted an end-to-end system.\"\n\n▶️ Watch the full interview: https://t.co/CsLVDR1hoL",
+    "created_at": "2026-02-02T14:07:41.000Z",
+    "author_id": "1219862691109429248",
+    "public_metrics": {
+      "retweet_count": 0,
+      "reply_count": 0,
+      "like_count": 2,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 180
+    }
+  },
+  {
+    "id": "2016957471403987211",
+    "text": "RT @aparnadhinak: https://t.co/fMQgg39hFh",
+    "created_at": "2026-01-29T19:31:49.000Z",
+    "author_id": "1219862691109429248",
+    "public_metrics": {
+      "retweet_count": 25,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 0
+    },
+    "retweet": {
+      "original_author_username": "aparnadhinak",
+      "original_author_name": "Aparna Dhinakaran",
+      "original_text": "https://t.co/fMQgg39hFh"
+    }
+  },
+  {
+    "id": "2016919293368422740",
+    "text": "Eval Hub wasn't the only feature shipped in Arize AX this week! Check out some other updates:\n\n➡️ Custom Metrics now support LIKE and ILIKE operators, enabling more flexible text pattern matching that LLMs naturally reach for when building queries\n\n➡️ Comprehensive RBAC (Role-Based Access Control) rollout across the platform, including custom role assignment in the UI, SAML role mapping support, and granular permissions for projects, datasets, experiments, evaluators, prompts, dashboards, and monitors - giving enterprise teams fine-grained control over data access and security\n\n➡️ New pivot table widget support added to dashboards, enabling summarized tabular data views with grouped dimensions and configurable aggregations\n\n➡️ Synthetic data generation expanded - you can now create synthetic data from single trace views and append synthetic spans to existing datasets, with intelligent column selection for better performance\n\n➡️ Trace slideover now resizable for better visibility into detailed trace information\n\nAnd much more!",
+    "created_at": "2026-01-29T17:00:06.000Z",
+    "author_id": "1219862691109429248",
+    "public_metrics": {
+      "retweet_count": 0,
+      "reply_count": 0,
+      "like_count": 2,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 141
+    }
+  },
+  {
+    "id": "2016595589543465026",
+    "text": "Learn more: https://t.co/7y3fmOSkpc",
+    "created_at": "2026-01-28T19:33:49.000Z",
+    "author_id": "1219862691109429248",
+    "public_metrics": {
+      "retweet_count": 0,
+      "reply_count": 0,
+      "like_count": 2,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 89
+    },
+    "urls": [
+      {
+        "display_url": "arize.com/docs/ax/evalua…",
+        "expanded_url": "https://arize.com/docs/ax/evaluate/online-evals/setting-up-online-evals",
+        "title": "Setting Up Online Evals - Arize AX Docs"
+      }
+    ]
+  },
+  {
+    "id": "2016595393388433808",
+    "text": "RT @arizeai: New in Arize AX: Evaluator Hub 🚀\n\nEvaluator Hub introduces reusable, versioned evaluators that can be shared across evaluation…",
+    "created_at": "2026-01-28T19:33:02.000Z",
+    "author_id": "1219862691109429248",
+    "public_metrics": {
+      "retweet_count": 2,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 0
+    },
+    "retweet": {
+      "original_author_username": "arizeai",
+      "original_author_name": "Arize AI",
+      "original_text": "New in Arize AX: Evaluator Hub 🚀\n\nEvaluator Hub introduces reusable, versioned evaluators that can be shared across evaluation tasks, instead of being redefined per task.\n\nThis makes evaluation behavior easier to reason about as tasks, datasets, and models evolve.\n\nWhat this unlocks: \n🔹Reuse the same evaluator definition across tasks to reduce eval drift\n🔹Scope LLM configuration to the evaluator for consistent behavior\n🔹Track changes with version history and commit messages \n🔹Reuse evaluators across datasets using column mappings\n\nTry it out today!"
+    }
+  },
+  {
+    "id": "2016595231492522382",
+    "text": "New in Arize AX: Evaluator Hub 🚀\n\nEvaluator Hub introduces reusable, versioned evaluators that can be shared across evaluation tasks, instead of being redefined per task.\n\nThis makes evaluation behavior easier to reason about as tasks, datasets, and models evolve.\n\nWhat this unlocks: \n🔹Reuse the same evaluator definition across tasks to reduce eval drift\n🔹Scope LLM configuration to the evaluator for consistent behavior\n🔹Track changes with version history and commit messages \n🔹Reuse evaluators across datasets using column mappings\n\nTry it out today!",
+    "created_at": "2026-01-28T19:32:24.000Z",
+    "author_id": "1219862691109429248",
+    "public_metrics": {
+      "retweet_count": 2,
+      "reply_count": 1,
+      "like_count": 6,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 170
+    }
+  },
+  {
+    "id": "2016258435386577301",
+    "text": "More on our prompt hub here: https://t.co/PnydURj8xv",
+    "created_at": "2026-01-27T21:14:05.000Z",
+    "author_id": "1219862691109429248",
+    "public_metrics": {
+      "retweet_count": 0,
+      "reply_count": 0,
+      "like_count": 1,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 96
+    },
+    "urls": [
+      {
+        "display_url": "arize.com/docs/ax/prompt…",
+        "expanded_url": "https://arize.com/docs/ax/prompts/prompt-hub",
+        "title": "Prompt Hub - Arize AX Docs"
+      }
+    ]
+  },
+  {
+    "id": "2016258423063740428",
+    "text": "🚀 New in Arize AX: Custom Prompt Release Labels\n\nYour prompts always don’t fit neatly into dev / staging / prod.\n\nIn reality, you’re running experiments in parallel, testing variants, shipping feature-specific prompts, and iterating fast based on real user behavior.\n\nWith Custom Prompt Release Labels, you can now tag prompts however your system actually works — experiments, versions, customers, features, or anything else.\n\nWhy this matters:\n• Cleaner comparisons between prompt variants\n• Faster debugging and safer rollbacks\n• Smoother integration into your system when prompts change\n\nWe hope that prompt versioning adapts to the developer and gives you full control! ✍️",
+    "created_at": "2026-01-27T21:14:02.000Z",
+    "author_id": "1219862691109429248",
+    "public_metrics": {
+      "retweet_count": 0,
+      "reply_count": 1,
+      "like_count": 3,
+      "quote_count": 0,
+      "bookmark_count": 1,
+      "impression_count": 151
+    }
+  },
+  {
+    "id": "2015859461475467410",
+    "text": "RT @ArizePhoenix: 🚀 New OpenInference integration with @pipecat_ai  \n\nWe’ve added OpenInference instrumentation for Pipecat using OpenTelem…",
+    "created_at": "2026-01-26T18:48:43.000Z",
+    "author_id": "1219862691109429248",
+    "public_metrics": {
+      "retweet_count": 10,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 0
+    },
+    "retweet": {
+      "original_author_username": "ArizePhoenix",
+      "original_author_name": "arize-phoenix",
+      "original_text": "🚀 New OpenInference integration with @pipecat_ai  \n\nWe’ve added OpenInference instrumentation for Pipecat using OpenTelemetry. Pipecat services can now emit standardized traces and spans with semantic context across realtime agent pipelines.\n\nThe integration instruments:\n🔹agent execution\n🔹tool / function calls\n🔹model interactions\n🔹service and pipeline boundaries\n\nTraces follow OpenInference conventions and can be inspected in @ArizePhoenix  for debugging, performance analysis, and understanding execution flow in production.\n\n🎥 Demo below"
+    }
+  },
+  {
+    "id": "2015830178145141169",
+    "text": "Wayfair recently rolled out Wilma, an AI system that flags supplier-customer interactions needing attention. Wilma’s performance is continuously monitored through offline evaluation, quality assurance team reviews and observability tooling in Arize AX. Read more: https://t.co/Yq4FgAjqEw",
+    "created_at": "2026-01-26T16:52:21.000Z",
+    "author_id": "1219862691109429248",
+    "public_metrics": {
+      "retweet_count": 1,
+      "reply_count": 0,
+      "like_count": 2,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 191
+    }
+  },
+  {
+    "id": "2014441454060622327",
+    "text": "Learn how to debug, test and optimize AI agents in this free video course from leading AI practitioners @aish_reganti and @kiritibadam!\n\nIn AI Evals For Everyone you'll go from knowing nothing about evals to hands-on practical lessons with Arize Phoenix in collecting traces, building evaluations, constructing datasets and running experiments, plus tips on production deployment, monitoring and more.\n\nhttps://t.co/diNVT8VQ45",
+    "created_at": "2026-01-22T20:54:03.000Z",
+    "author_id": "1219862691109429248",
+    "public_metrics": {
+      "retweet_count": 2,
+      "reply_count": 0,
+      "like_count": 5,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 502
+    }
+  },
+  {
+    "id": "2014382578770567393",
+    "text": "It was another super busy week! Here's what we shipped this week in Arize AX:\n\n➡️ Tracing table loads 30-50% faster with truncated strings that lazy load on hover, significantly improving performance for large traces while maintaining full data visibility when you need it\n➡️ Expand traces directly in the tracing table to view child spans and understand request branching without leaving the main view, making it easier to navigate complex execution paths\n➡️ Custom release labels for prompt versions let you tag and track specific prompt iterations like staging or production releases, bringing software engineering best practices to prompt management\n➡️ Eval Hub now displays which LLM model (OpenAI, Anthropic, Gemini, etc.) was used for each evaluator and shows evaluator counts in running tasks, providing better visibility into evaluation configurations\n➡️ Add spans and dataset examples to labeling queues directly from the spans table, trace slideover, or queue records table, making it easier to route data for human review and feedback\n➡️ RBAC enhancements with new permission system for space access controls for more granular security management",
+    "created_at": "2026-01-22T17:00:06.000Z",
+    "author_id": "1219862691109429248",
+    "public_metrics": {
+      "retweet_count": 0,
+      "reply_count": 0,
+      "like_count": 3,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 178
+    }
+  },
+  {
+    "id": "2013673946433102190",
+    "text": "Chewy, a trusted online destination for pet parents and partners, is an early adopter of breakthroughs like AI-powered checkout. With Arize AX, AI engineers at Chewy can rely on end-to-end tracing across agent flows, alerting, and more. See AX up close: https://t.co/J0EITw1fLm https://t.co/mTxxi8c1SQ",
+    "created_at": "2026-01-20T18:04:15.000Z",
+    "author_id": "1219862691109429248",
+    "public_metrics": {
+      "retweet_count": 0,
+      "reply_count": 1,
+      "like_count": 2,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 171
+    },
+    "urls": [
+      {
+        "display_url": "arize.com/request-a-demo/",
+        "expanded_url": "https://arize.com/request-a-demo/",
+        "title": "Arize Demo: See Arize AX in Action"
+      }
+    ]
+  },
+  {
+    "id": "2012655710090203296",
+    "text": "RT @ArizePhoenix: 📣 the Phoenix CLI: Terminal Access for AI Coding Assistants such as @claude_code and @geminicli\n\n@arizeai/phoenix-cli is…",
+    "created_at": "2026-01-17T22:38:09.000Z",
+    "author_id": "1219862691109429248",
+    "public_metrics": {
+      "retweet_count": 2,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 0
+    },
+    "retweet": {
+      "original_author_username": "ArizePhoenix",
+      "original_author_name": "arize-phoenix",
+      "original_text": "📣 the Phoenix CLI: Terminal Access for AI Coding Assistants such as @claude_code and @geminicli\n\n@arizeai/phoenix-cli is a command-line interface for retrieving trace data. It provides the same observability data available in the Phoenix UI through shell commands and file exports."
+    }
+  },
+  {
+    "id": "2012177775768240141",
+    "text": "Using Google Antigravity + Arize’s MCP Tracing Assistant, we instrumented a Google ADK agent in minutes without leaving the IDE:\n\n ✅ install Arize MCP server\n ✅ prompt “instrument https://t.co/9NggIG2GZ4 to send traces to Arize”\n ✅ resolves OTel dependency conflicts + generates debug script\n ✅ traces flowing in Arize AX\n\nDetails on how: https://t.co/7dwH75eahj",
+    "created_at": "2026-01-16T14:59:00.000Z",
+    "author_id": "1219862691109429248",
+    "public_metrics": {
+      "retweet_count": 1,
+      "reply_count": 0,
+      "like_count": 1,
+      "quote_count": 0,
+      "bookmark_count": 2,
+      "impression_count": 217
+    },
+    "urls": [
+      {
+        "display_url": "agent.py",
+        "expanded_url": "http://agent.py"
+      }
+    ]
+  },
+  {
+    "id": "2012159215876653067",
+    "text": "REA Group, Australia's largest property website, recently debuted realAssist: a new AI-powered conversational companion designed to help homeowners better understand their realEstimate property valuation. With Arize AX, the team can effectively evaluate answer quality and proactively monitor key failure modes - critical for a customer-facing assistant operating at scale. Learn more about Arize AX: https://t.co/7K5SJ2gdQc",
+    "created_at": "2026-01-16T13:45:15.000Z",
+    "author_id": "1219862691109429248",
+    "public_metrics": {
+      "retweet_count": 0,
+      "reply_count": 0,
+      "like_count": 2,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 164
+    }
+  },
+  {
+    "id": "2011527233354301704",
+    "text": "RT @aparnadhinak: @metropol Check out @ArizePhoenix",
+    "created_at": "2026-01-14T19:53:59.000Z",
+    "author_id": "1219862691109429248",
+    "public_metrics": {
+      "retweet_count": 1,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 0
+    },
+    "retweet": {
+      "original_author_username": "aparnadhinak",
+      "original_author_name": "Aparna Dhinakaran",
+      "original_text": "@metropol Check out @ArizePhoenix"
+    }
+  },
+  {
+    "id": "2011351087211487453",
+    "text": "For folks in the 🇮🇳 IST time zone, we have a great virtual workshop coming up. RSVP: https://t.co/E7zhrqEEF9\n\nWe'll be covering the basics of evaluating AI agent outputs, observing real-world behavior, and driving targeted improvements with @QualityKiosk_. https://t.co/HUHGhwXNNb",
+    "created_at": "2026-01-14T08:14:02.000Z",
+    "author_id": "1219862691109429248",
+    "public_metrics": {
+      "retweet_count": 0,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 206
+    },
+    "urls": [
+      {
+        "display_url": "events.teams.microsoft.com/event/63aba56b…",
+        "expanded_url": "https://events.teams.microsoft.com/event/63aba56b-6a58-41f1-8289-be7d2f258f4b@4bc3d1e1-0e5d-4c36-adf7-38c9ac37083c",
+        "title": "Microsoft Virtual Events Powered by Teams"
+      }
+    ]
+  },
+  {
+    "id": "2011061176667685321",
+    "text": "We're hosting an immersive lab with @aicampai @aws where you can learn to build a production-grade multi-agent AI system in one intensive day. Limited to 250 developers; RSVP: https://t.co/Z8boTniIIj https://t.co/rZh8eKNCUk",
+    "created_at": "2026-01-13T13:02:02.000Z",
+    "author_id": "1219862691109429248",
+    "public_metrics": {
+      "retweet_count": 1,
+      "reply_count": 0,
+      "like_count": 1,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 194
+    },
+    "urls": [
+      {
+        "display_url": "aicamp.ai/event/eventdet…",
+        "expanded_url": "https://www.aicamp.ai/event/eventdetails/W2026021308?utm_source=ailabsf0213arize",
+        "title": "AWS AI Builder Lab (SF) - Craft with AI, Build for AI"
+      }
+    ]
+  },
+  {
+    "id": "2010762516960592261",
+    "text": "https://t.co/uNIp0orcqS is building an AI tax copilot that blends automation and expertise for cross-border tax compliance. Arize AX enables robust session-level evals and trace-level visibility into agent paths and tool calls. See AX up close: https://t.co/Jk9ObdP7lr https://t.co/ewBGpnndJW",
+    "created_at": "2026-01-12T17:15:16.000Z",
+    "author_id": "1219862691109429248",
+    "public_metrics": {
+      "retweet_count": 0,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 145
+    },
+    "urls": [
+      {
+        "display_url": "Taxsure.ai",
+        "expanded_url": "http://Taxsure.ai",
+        "title": "Taxsure - AI-Powered Tax Assistance Platform"
+      },
+      {
+        "display_url": "arize.com/?book-a-demo=t…",
+        "expanded_url": "https://arize.com/?book-a-demo=true",
+        "title": "Home"
+      }
+    ]
+  },
+  {
+    "id": "2010033914933604722",
+    "text": "A few things we're reading (happy to make this a thing) 👀📚:\n\n➔ @biilmann's 2026 predictions (nice case for evals?): https://t.co/ByRxEEMQQD\n➔ WAREX: Web Agent Reliability Evaluation on Existing Benchmarks — https://t.co/gYvsN67M57",
+    "created_at": "2026-01-10T17:00:04.000Z",
+    "author_id": "1219862691109429248",
+    "public_metrics": {
+      "retweet_count": 0,
+      "reply_count": 0,
+      "like_count": 2,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 209
+    },
+    "urls": [
+      {
+        "display_url": "biilmann.blog/articles/predi…",
+        "expanded_url": "https://biilmann.blog/articles/predictions-for-2026/",
+        "title": "Predictions for 2026: 5 Topics"
+      },
+      {
+        "display_url": "arxiv.org/abs/2510.03285",
+        "expanded_url": "https://arxiv.org/abs/2510.03285",
+        "title": "WAREX: Web Agent Reliability Evaluation on Existing Benchmarks"
+      }
+    ]
+  },
+  {
+    "id": "2009738435821514797",
+    "text": "RT @ArizePhoenix: We just released a new Python Tracing Quickstart for Phoenix!\n\nIt’s all about learning the full workflows that turn AI ag…",
+    "created_at": "2026-01-09T21:25:56.000Z",
+    "author_id": "1219862691109429248",
+    "public_metrics": {
+      "retweet_count": 1,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 0
+    },
+    "retweet": {
+      "original_author_username": "ArizePhoenix",
+      "original_author_name": "arize-phoenix",
+      "original_text": "We just released a new Python Tracing Quickstart for Phoenix!\n\nIt’s all about learning the full workflows that turn AI agents into systems you can actually understand and assess.\n\nAgents don’t fail like traditional software. They can misclassify, retrieve the wrong docs, forget context, or call tools with bad inputs. Console logs won’t save you.\n\nIn this walkthrough, you build a real agent and instrument it as you go:\n\n➡️ First: trace everything in minutes. Every LLM call, tool execution, and RAG retrieval is grouped into a single execution flow you can click through. No guessing why something broke.\n\n➡️ Then: go beyond “it ran” to “it worked.” Attach human feedback, capture user reactions, and run LLM-as-judge evals so quality becomes a metric, not a vibe. Patterns emerge across hundreds of traces.\n\n➡️ Finally: make conversation observable. Trace state, memory, and context across turns with sessions, so you can measure goal completion and pinpoint where context gets lost.\n\nBy the end, you’ll know exactly what happened, why it happened, and what to fix next — using real AI observability workflows, not ad hoc debugging.\n\nA TS version is also available 💫\n\nDocs to get started are below! 👇"
+    }
+  },
+  {
+    "id": "2009312665458627038",
+    "text": "RT @ArizePhoenix: We just published a new Get Started with Phoenix Quickstart\n\nIt walks through the workflow we recommend for improving age…",
+    "created_at": "2026-01-08T17:14:05.000Z",
+    "author_id": "1219862691109429248",
+    "public_metrics": {
+      "retweet_count": 7,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 0
+    },
+    "retweet": {
+      "original_author_username": "ArizePhoenix",
+      "original_author_name": "arize-phoenix",
+      "original_text": "We just published a new Get Started with Phoenix Quickstart\n\nIt walks through the workflow we recommend for improving agent apps in a way you can measure and validate:\n\n🔹 Trace a @crewAIInc agent to capture execution flow, tool calls, and LLM calls\n🔹 Define an eval (LLM-as-judge) to score outputs and label failures\n🔹 Build a dataset of failure cases so you have concrete data to test iterations\n🔹 Run experiments to compare agent versions on the same inputs and verify improvements\n\nThe agent is built in Python with @crewAIInc, uses Serper for real-time search, and follows the full trace → eval → iterate loop end to end with Phoenix.\n\nTry it here: https://t.co/08SiOenF2c\n\nTS version coming soon 👀"
+    }
+  },
+  {
+    "id": "2008573007745425740",
+    "text": "▶ 2025 recap ◀ https://t.co/QLjluchYH3 https://t.co/uHc55svlFL",
+    "created_at": "2026-01-06T16:14:57.000Z",
+    "author_id": "1219862691109429248",
+    "public_metrics": {
+      "retweet_count": 1,
+      "reply_count": 0,
+      "like_count": 4,
+      "quote_count": 0,
+      "bookmark_count": 1,
+      "impression_count": 198
+    },
+    "urls": [
+      {
+        "display_url": "arize.com/year-in-review/",
+        "expanded_url": "https://arize.com/year-in-review/",
+        "title": "Year in Review"
+      }
+    ]
+  },
+  {
+    "id": "2008218568685486241",
+    "text": "東京開催｜エンタープライズAIエージェント\n\nPoC止まりで終わらせない。\n\n 本番で動くAIエージェントの構築・運用・評価を実践的に解説します。\n\nArize AI × Dify × 東京エレクトロン デバイス 共催\n\n🔹エージェントの信頼性・評価・オブザーバビリティ\n🔹 エンタープライズ導入で直面する課題と解決策\n🔹 実運用事例ベースのセッション\n\n📅 1月15日（木）17:30–21:00\n📍WITH HARAJUKU HALL（原宿）\n 🎟️ 参加登録（承認制）\n\n 👇 https://t.co/yf7NQMpUMM",
+    "created_at": "2026-01-05T16:46:32.000Z",
+    "author_id": "1219862691109429248",
+    "public_metrics": {
+      "retweet_count": 2,
+      "reply_count": 0,
+      "like_count": 6,
+      "quote_count": 2,
+      "bookmark_count": 0,
+      "impression_count": 2253
+    }
+  },
+  {
+    "id": "2007099376934822041",
+    "text": "G-P (Globalization Partners) recently rolled out the next generation of G-P Gia, a “first-of-its-kind agentic AI solution” built for compliant global HR. With Arize AX, G-P teams can run LLM evals and trace real-world behavior end-to-end, privacy-safe, to iterate faster. See AX up close: https://t.co/0lCAxgxgPf",
+    "created_at": "2026-01-02T14:39:16.000Z",
+    "author_id": "1219862691109429248",
+    "public_metrics": {
+      "retweet_count": 0,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 271
+    }
+  },
+  {
+    "id": "2006362017658253728",
+    "text": "New Year's resolution: learn more about evals and prompt learning. We have you covered: https://t.co/BcAB1JB2x5 https://t.co/KmUK2HHAct",
+    "created_at": "2025-12-31T13:49:16.000Z",
+    "author_id": "1219862691109429248",
+    "public_metrics": {
+      "retweet_count": 0,
+      "reply_count": 0,
+      "like_count": 1,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 368
+    },
+    "urls": [
+      {
+        "display_url": "luma.com/430305pd",
+        "expanded_url": "https://luma.com/430305pd",
+        "title": "Evals Workshop: Prompt Learning · Zoom · Luma"
+      }
+    ]
+  },
+  {
+    "id": "2006060232171266292",
+    "text": "RT @ArizePhoenix: 🔍 New Phoenix Evaluation Integration: @CVSHealth’s UQLM (Uncertainty Quantification for Language Models) metric.\n\nUQLM gi…",
+    "created_at": "2025-12-30T17:50:04.000Z",
+    "author_id": "1219862691109429248",
+    "public_metrics": {
+      "retweet_count": 2,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 0
+    },
+    "retweet": {
+      "original_author_username": "ArizePhoenix",
+      "original_author_name": "arize-phoenix",
+      "original_text": "🔍 New Phoenix Evaluation Integration: @CVSHealth’s UQLM (Uncertainty Quantification for Language Models) metric.\n\nUQLM gives you a quantitative measure of LLM uncertainty, so you can:\n\n⚪️ Spot hallucination-prone responses by surfacing low-confidence outputs\n⚪️ Flag uncertain generations for fallback, review, or guardrails\n⚪️ Compare prompts & models more rigorously with uncertainty signals\n⚪️ Monitor safety + reliability in production by tracking confidence drift\n\n📘 Step-by-step guide to using Phoenix + UQLM:\nhttps://t.co/2Vszk2ZyIV"
+    }
+  },
+  {
+    "id": "2005657876204015863",
+    "text": "Autodesk is applying AI across design-and-make workflows, from generative AI for editable CAD outputs to automation across planning, design, and production. Behind the scenes, teams tap Arize AX to tighten the loop with evals and observability as they scale. See AX up close: https://t.co/0lCAxgxgPf",
+    "created_at": "2025-12-29T15:11:15.000Z",
+    "author_id": "1219862691109429248",
+    "public_metrics": {
+      "retweet_count": 0,
+      "reply_count": 0,
+      "like_count": 2,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 275
+    }
+  },
+  {
+    "id": "2004612219762606092",
+    "text": "Repo: https://t.co/D9R8o9S9d3",
+    "created_at": "2025-12-26T17:56:11.000Z",
+    "author_id": "1219862691109429248",
+    "public_metrics": {
+      "retweet_count": 0,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "bookmark_count": 2,
+      "impression_count": 256
+    },
+    "urls": [
+      {
+        "display_url": "github.com/Arize-ai/chat-…",
+        "expanded_url": "https://github.com/Arize-ai/chat-to-purchase-router-agent",
+        "title": "GitHub - Arize-ai/chat-to-purchase-router-agent"
+      }
+    ]
+  },
+  {
+    "id": "2004612206756069400",
+    "text": "New Chat-to-Purchase Agent Demo with Arize AX Tracing  🛒\n\nIf you’re building an agent that helps users browse products and drive purchases, Arize AX can give you visibility into how your system reasons and takes action.\n\nWe’ve just released a demo agent to show how tracing these agents in practice can help. You can:\n\n➡️ Interact with the demo agent directly on a mock storefront—ask questions, browse and compare items, and move toward a purchase\n➡️ In Arize AX, tracing will give you clear visibility into the product data usage, tool calls, and orchestration logic behind each response. You can also see multi-turn interactions using session views.\n\nThe demo experience is fully customizable—take it, adapt it to your own products and workflows, and use Arize AX to debug, improve, and scale these experiences with confidence.\n\nRepo below 👇",
+    "created_at": "2025-12-26T17:56:08.000Z",
+    "author_id": "1219862691109429248",
+    "public_metrics": {
+      "retweet_count": 0,
+      "reply_count": 1,
+      "like_count": 1,
+      "quote_count": 0,
+      "bookmark_count": 1,
+      "impression_count": 540
+    }
+  },
+  {
+    "id": "2003376345846538249",
+    "text": "Do you have your EU AI Act compliance dashboard setup yet?\n\nWith the act's general date of application fast-approaching (2 August 2026) with far-reaching obligations for AI systems, it's time!\n\nHakan Tekgul walks through one in this new demo/blog: https://t.co/LjET7192Vq https://t.co/3GdzznO7iP",
+    "created_at": "2025-12-23T08:05:16.000Z",
+    "author_id": "1219862691109429248",
+    "public_metrics": {
+      "retweet_count": 0,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "bookmark_count": 2,
+      "impression_count": 771
+    },
+    "urls": [
+      {
+        "display_url": "arize.com/blog/eu-ai-act…",
+        "expanded_url": "https://arize.com/blog/eu-ai-act-compliance-what-ai-engineering-teams-should-monitor/",
+        "title": "EU AI Act Compliance: What AI Engineering Teams Should Monitor"
+      }
+    ]
+  },
+  {
+    "id": "2003179238267191560",
+    "text": "RT @ArizePhoenix: @nvidia x @DeepLearningAI lauched a new course on building reliable agentic systems with the NeMo Agent Toolkit (NAT), fe…",
+    "created_at": "2025-12-22T19:02:02.000Z",
+    "author_id": "1219862691109429248",
+    "public_metrics": {
+      "retweet_count": 3,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 250
+    }
+  },
+  {
+    "id": "2003136044569616767",
+    "text": "Stryker, a global leader in medical technologies, is an innovator in AI across its portfolio and operations — backed by an AI Governance Committee. With Arize AX, they gain a solid partner for evals and observability, including for multimodal use cases. Book a demo: https://t.co/0lCAxgxgPf",
+    "created_at": "2025-12-22T16:10:24.000Z",
+    "author_id": "1219862691109429248",
+    "public_metrics": {
+      "retweet_count": 0,
+      "reply_count": 0,
+      "like_count": 1,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 281
+    }
+  },
+  {
+    "id": "2001671613180449245",
+    "text": "Typeform powers forms, surveys, and quizzes for 150,000+ businesses —and AI is woven throughout. With Arize AX, the company is able to standardize evals + observability to keep quality high and tie AI behavior to real outcomes. Book a demo: https://t.co/Jk9ObdP7lr https://t.co/oe8G2Q2LOn",
+    "created_at": "2025-12-18T15:11:16.000Z",
+    "author_id": "1219862691109429248",
+    "public_metrics": {
+      "retweet_count": 0,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 211
+    },
+    "urls": [
+      {
+        "display_url": "arize.com/?book-a-demo=t…",
+        "expanded_url": "https://arize.com/?book-a-demo=true",
+        "title": "Home"
+      }
+    ]
+  },
+  {
+    "id": "2001337131084714482",
+    "text": "Docs: https://t.co/idcjni6q3n",
+    "created_at": "2025-12-17T17:02:09.000Z",
+    "author_id": "1219862691109429248",
+    "public_metrics": {
+      "retweet_count": 0,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 143
+    },
+    "urls": [
+      {
+        "display_url": "arize.com/docs/phoenix/s…",
+        "expanded_url": "https://arize.com/docs/phoenix/settings/phoenix-to-arize-ax-migration"
+      }
+    ]
+  },
+  {
+    "id": "2001337119084773407",
+    "text": "Migrating from Phoenix → Arize AX just got easy!\n\nArize AX is a natural next step if you’re looking for online evaluations, custom alerts and dashboards, and access to our agent Alyx to streamline your workflows. You also get strong support, while keeping things easy to use across the whole team.\n\nYou don’t have to start from scratch. We make it easy to bring over your projects, datasets, and experiments from Phoenix, so your progress and insights all move with you.\n\nCheck out the docs to learn more about making the shift!",
+    "created_at": "2025-12-17T17:02:06.000Z",
+    "author_id": "1219862691109429248",
+    "public_metrics": {
+      "retweet_count": 0,
+      "reply_count": 1,
+      "like_count": 0,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 166
+    }
+  },
+  {
+    "id": "2000971737681605066",
+    "text": "Work with the latest and greatest! GPT-5.2 is available in the prompt playground for you to test out and optimize your prompts.\n\nSign up for Arize AX today: https://t.co/duYTCTm4KX https://t.co/7urgHX0U4s",
+    "created_at": "2025-12-16T16:50:13.000Z",
+    "author_id": "1219862691109429248",
+    "public_metrics": {
+      "retweet_count": 0,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 122
+    },
+    "urls": [
+      {
+        "display_url": "app.arize.com",
+        "expanded_url": "https://app.arize.com/",
+        "title": "Arize AI"
+      }
+    ]
+  },
+  {
+    "id": "2000677770029084746",
+    "text": "RT @ArizePhoenix: Just released a new tracing tutorial in our docs. It walks you through:\n\n- tracing an agent, giving full observability in…",
+    "created_at": "2025-12-15T21:22:05.000Z",
+    "author_id": "1219862691109429248",
+    "public_metrics": {
+      "retweet_count": 2,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 0
+    },
+    "retweet": {
+      "original_author_username": "ArizePhoenix",
+      "original_author_name": "arize-phoenix",
+      "original_text": "Just released a new tracing tutorial in our docs. It walks you through:\n\n- tracing an agent, giving full observability into LLM calls, tool calls, and RAG systems\n- annotating your traces manually, or using an LLM for automatic evals\n- organizing your traces into user sessions, so you can track memory recollection and user satisfaction across user sessions\n\nAgent built in Typescript, using AI SDK, and tracing/evals done with Phoenix.\n\nTry the tutorial now! https://t.co/BlV3vPCarM"
+    }
+  },
+  {
+    "id": "2000611890737869197",
+    "text": "https://t.co/Q82798qP9m, which connects millions of travelers with memorable experiences every day, has a number of AI agents deployed into production across its marketplace.\n\nEvals fit into every stage of the process, from the development of agents by product managers and UX folks all the way through to production -- where daily workflows run evals and put them back into Arize AX to be able to monitor and understand if behavior is changing over time. See how AX can help your team: https://t.co/0lCAxgxgPf",
+    "created_at": "2025-12-15T17:00:18.000Z",
+    "author_id": "1219862691109429248",
+    "public_metrics": {
+      "retweet_count": 0,
+      "reply_count": 0,
+      "like_count": 1,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 116
+    },
+    "urls": [
+      {
+        "display_url": "Booking.com",
+        "expanded_url": "http://Booking.com",
+        "title": "The largest selection of hotels, homes, and vacation rentals"
+      }
+    ]
+  },
+  {
+    "id": "1999557042546114789",
+    "text": "RT @ArizePhoenix: In our latest Evals Series webinar, we covered how to evaluate your evaluator (“aligning the judge”).\n\nAI development has…",
+    "created_at": "2025-12-12T19:08:43.000Z",
+    "author_id": "1219862691109429248",
+    "public_metrics": {
+      "retweet_count": 4,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 0
+    },
+    "retweet": {
+      "original_author_username": "ArizePhoenix",
+      "original_author_name": "arize-phoenix",
+      "original_text": "In our latest Evals Series webinar, we covered how to evaluate your evaluator (“aligning the judge”).\n\nAI development has two loops: improving the application and improving the evals themselves. Meta-evaluation lives in the inner loop.\n\nSince LLM judges scale human annotation (rather than deterministic metrics), validating them like classifiers is essential.\n\nWe also walked through a live demo of this loop in practice, iteratively improving the judge and showing measurable gains at each step.\n\nCurious how others are validating & improving their evaluators."
+    }
+  },
+  {
+    "id": "1999170097945149555",
+    "text": "In case you missed it: we gathered with builders in NYC last night to dive into what really moves the needle after an agent is deployed.\n\nA lot of progress starts in production. This means learning from how your agent behaves in the wild and feeding those findings back into your development pipelines.\n\nWe walked through how continuous evaluation surfaces failures, closes the feedback loop, and turns real insights into a better performing agent.\n\nWith Arize AX, online evals and real-time tracing makes every production run part of an iterative cycle. This helps teams ship smarter agents that are consistently evolving.\n\nCheck out the video recording of the session: https://t.co/lG4bdXoERF",
+    "created_at": "2025-12-11T17:31:08.000Z",
+    "author_id": "1219862691109429248",
+    "public_metrics": {
+      "retweet_count": 2,
+      "reply_count": 4,
+      "like_count": 3,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 407
+    }
+  },
+  {
+    "id": "1998747048569639095",
+    "text": "AI is woven into customer journeys @TheFork_uk, one of Europe’s leading restaurant discovery and booking platforms. And Arize AX is layered across TheFork's stack on @aws, with tracing helping the team drive tangible wins in terms of lower latency, clearer cost signals, and faster iteration.\n\n🍴 Here's TheFork recipe book for using online evals to boost conversions: https://t.co/nwGxuCAbnE",
+    "created_at": "2025-12-10T13:30:05.000Z",
+    "author_id": "1219862691109429248",
+    "public_metrics": {
+      "retweet_count": 0,
+      "reply_count": 0,
+      "like_count": 1,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 161
+    }
+  },
+  {
+    "id": "1998130246437232680",
+    "text": "RT @ArizePhoenix: New End-to-end tutorial dropped on how to create, manage, and improve on your prompts using Phoenix!\n\nWe walk through how…",
+    "created_at": "2025-12-08T20:39:08.000Z",
+    "author_id": "1219862691109429248",
+    "public_metrics": {
+      "retweet_count": 2,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 2
+    },
+    "retweet": {
+      "original_author_username": "ArizePhoenix",
+      "original_author_name": "arize-phoenix",
+      "original_text": "New End-to-end tutorial dropped on how to create, manage, and improve on your prompts using Phoenix!\n\nWe walk through how to:\n\n1️⃣ Trace your LLM app to find failing prompts\n\n2️⃣ Run dataset-scale experiments + evals\n\n3️⃣ Compare prompt versions + parameters\n\n4️⃣ Use Prompt Learning to automatically improve prompts from feedback\n\nDo the walkthrough here: https://t.co/paoqv3VzwJ"
+    }
+  },
+  {
+    "id": "1998099781412159888",
+    "text": "🗽NYC: join us Wednesday evening at @betaworks for networking/talks on building, scaling, and improving AI agents in production. RSVP: https://t.co/oQreyn7VOM\n\nTalks include\n⚫ Tom Haddock with ​@crewaiinc on Building Effective Agents at Scale\n⚫ @sanjanayed of @ArizePhoenix on Improving Agents in Production with Online Evals",
+    "created_at": "2025-12-08T18:38:05.000Z",
+    "author_id": "1219862691109429248",
+    "public_metrics": {
+      "retweet_count": 0,
+      "reply_count": 5,
+      "like_count": 4,
+      "quote_count": 1,
+      "bookmark_count": 0,
+      "impression_count": 395
+    },
+    "urls": [
+      {
+        "display_url": "luma.com/xx88ixvb",
+        "expanded_url": "https://luma.com/xx88ixvb",
+        "title": "NYC AI Builders Meetup: Building and Improving Agents with Arize AI & CrewAI · Luma"
+      }
+    ]
+  },
+  {
+    "id": "1997025420638920839",
+    "text": "Metals and mining giant Rio Tinto now relies on Arize AX as it evaluates and deploys new gen-AI use cases. https://t.co/2ZdNgOAW6P",
+    "created_at": "2025-12-05T19:28:57.000Z",
+    "author_id": "1219862691109429248",
+    "public_metrics": {
+      "retweet_count": 0,
+      "reply_count": 5,
+      "like_count": 4,
+      "quote_count": 0,
+      "bookmark_count": 1,
+      "impression_count": 179
+    }
+  },
+  {
+    "id": "1996950210749276331",
+    "text": "Get certified 🎓 in AI Agent Mastery with @schavalii: https://t.co/z9eXCdVsuN\n\nWhy this course now? Building state-of-the-art AI agents is challenging in today’s environment, particularly as the field evolves and AI engineers navigate a dizzying array of new frameworks and tools.\n\nThis course covers the latest in:\n🟣 Agent architectures and frameworks\n🟣 Tools & MCP\n🟣 Agentic RAG\n🟣 Agent evaluation\n🟣 Post-deployment and monitoring\n\nEach module has a hands-on lab.",
+    "created_at": "2025-12-05T14:30:06.000Z",
+    "author_id": "1219862691109429248",
+    "public_metrics": {
+      "retweet_count": 0,
+      "reply_count": 4,
+      "like_count": 6,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 148
+    },
+    "urls": [
+      {
+        "display_url": "courses.arize.com/l/pdp/ai-agent…",
+        "expanded_url": "https://courses.arize.com/l/pdp/ai-agents-mastery-from-architecture-to-optimization",
+        "title": "AI Agents Mastery: From Architecture To Optimization - 2026 Update"
+      }
+    ]
+  },
+  {
+    "id": "1996660198979870816",
+    "text": "RT @schavalii: Spoke at @arizeai’s AI Builder Meetup with @mastra a few weeks back &amp;  the talk is now live! \n\nI covered the basics of obser…",
+    "created_at": "2025-12-04T19:17:42.000Z",
+    "author_id": "1219862691109429248",
+    "public_metrics": {
+      "retweet_count": 6,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 0
+    },
+    "retweet": {
+      "original_author_username": "schavalii",
+      "original_author_name": "Srilakshmi Chavali",
+      "original_text": "Spoke at @arizeai’s AI Builder Meetup with @mastra a few weeks back &  the talk is now live! \n\nI covered the basics of observability + evals, and showed via a Mastra agent how to set up observability,  view traces, run evals, and kick-start your iteration cycle. \n\nWould love to hear how you're tackling this in your own workflows. If you're looking to add observability + evals, happy to help you get there 🚀 \n\nhttps://t.co/NQKQ1LhuC3"
+    }
+  },
+  {
+    "id": "1996660187055509880",
+    "text": "RT @ArizePhoenix: Check out this walkthrough on bringing observability and evals into LLM workflows, plus a Phoenix demo with helpful conte…",
+    "created_at": "2025-12-04T19:17:39.000Z",
+    "author_id": "1219862691109429248",
+    "public_metrics": {
+      "retweet_count": 3,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 0
+    },
+    "retweet": {
+      "original_author_username": "ArizePhoenix",
+      "original_author_name": "arize-phoenix",
+      "original_text": "Check out this walkthrough on bringing observability and evals into LLM workflows, plus a Phoenix demo with helpful context for anyone building agents in TypeScript.\n\nWatch the session below 👇 https://t.co/IR1EmAAE53"
+    }
+  },
+  {
+    "id": "1996269015829021070",
+    "text": "RT @ArizePhoenix: 📚 Just dropped: new end-to-end Phoenix tutorials for Python and TypeScript!\n\nImproving an agent starts with understanding…",
+    "created_at": "2025-12-03T17:23:16.000Z",
+    "author_id": "1219862691109429248",
+    "public_metrics": {
+      "retweet_count": 2,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 0
+    },
+    "retweet": {
+      "original_author_username": "ArizePhoenix",
+      "original_author_name": "arize-phoenix",
+      "original_text": "📚 Just dropped: new end-to-end Phoenix tutorials for Python and TypeScript!\n\nImproving an agent starts with understanding where & why it fails. That requires careful error analysis, clear task definitions, and a repeatable iteration loop.\n\nThese new tutorials walk through the core workflow for building and improving LLM applications with Phoenix. Learn about:\n\n➡️ Interpreting and comparing agent traces\n\n➡️ Defining tasks and creating datasets for structured experimentation\n\n➡️ Writing purposeful LLM evals to measure performance and uncover failure modes\n\n➡️ Iterating based on evaluation results and human feedback to improve reliability\n\nBy working through this cycle, you’ll develop an systematic approach to deploying agents that perform consistently and handle edge cases with confidence.\n\nChoose the language you work in and get started below ⬇️"
+    }
+  },
+  {
+    "id": "1995873118091632814",
+    "text": "Our LLM-as-a-Judge 101 virtual workshop was so popular, we're returning for LLM-as-a-Judge 102. 🎓 RSVP: https://t.co/fDzfSK3RWX\n\nIn this session focused on meta-evaluation, you’ll learn how to validate whether your LLM judge is measuring the right thing, how closely it aligns with human judgment, and how to identify where it fails. We’ll walk through comparing LLM and human annotations on a curated golden dataset, calculating precision/recall/F1, and inspecting disagreement cases to understand why your evaluator struggles.\n\nWe’ll also cover advanced techniques such as treating humans and LLMs as annotators to estimate inter-annotator agreement, and using high-temperature stress tests to detect prompt ambiguity or unstable reasoning.\n\nSee you soon!",
+    "created_at": "2025-12-02T15:10:07.000Z",
+    "author_id": "1219862691109429248",
+    "public_metrics": {
+      "retweet_count": 2,
+      "reply_count": 4,
+      "like_count": 5,
+      "quote_count": 0,
+      "bookmark_count": 2,
+      "impression_count": 164
+    },
+    "urls": [
+      {
+        "display_url": "luma.com/ab78cmgo",
+        "expanded_url": "https://luma.com/ab78cmgo",
+        "title": "LLM-as-a-Judge 102: Meta Evaluation · Zoom · Luma"
+      }
+    ]
+  },
+  {
+    "id": "1995613001085583442",
+    "text": "In case you missed it last week: we released day 0 support for Claude Opus 4.5 in Phoenix! Try it out in the prompt playground today!\n\nLearn about the prompt playground:\nhttps://t.co/fZ3loNqL1Q\n\nSign up for Phoenix Cloud:\nhttps://t.co/Y6dfcam6ko\n\nRelease notes:\nhttps://t.co/nIKMtMroGV",
+    "created_at": "2025-12-01T21:56:30.000Z",
+    "author_id": "1219862691109429248",
+    "public_metrics": {
+      "retweet_count": 0,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 202
+    },
+    "urls": [
+      {
+        "display_url": "arize.com/docs/phoenix/p…",
+        "expanded_url": "https://arize.com/docs/phoenix/prompt-engineering/overview-prompts/prompt-playground",
+        "title": "Prompt Playground | Arize Phoenix"
+      },
+      {
+        "display_url": "app.phoenix.arize.com",
+        "expanded_url": "https://app.phoenix.arize.com/",
+        "title": "Authentication"
+      }
+    ]
+  },
+  {
+    "id": "1995573704215154998",
+    "text": "Arize AX + @aws Bedrock AgentCore = deploy agents with confidence and improve them continuously based on real data.\n\nFrom the floor of @AWSreInvent, a new 📔 running through a travel planning agent example.\n\nDive in: https://t.co/ANxKbDmvpZ https://t.co/MmfjhgMfjz",
+    "created_at": "2025-12-01T19:20:21.000Z",
+    "author_id": "1219862691109429248",
+    "public_metrics": {
+      "retweet_count": 2,
+      "reply_count": 4,
+      "like_count": 2,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 201
+    },
+    "urls": [
+      {
+        "display_url": "arize.com/blog/aws-bedro…",
+        "expanded_url": "https://arize.com/blog/aws-bedrock-agentcore-observability-operationalizing-ai-agents-at-scale/",
+        "title": "AWS Bedrock AgentCore Observability with Arize AX: Operationalizing AI Agents At Scale"
+      }
+    ]
+  },
+  {
+    "id": "1994451338424647877",
+    "text": "If you've been debugging agentic LLM apps by scrolling through hundreds of spans, Arize AX can help you do better!\n\nAgent Graph gives you a node-based visual map of your agent workflows, so you can instantly see execution paths, identify failure points, spot self-looping behavior, and understand which agents are calling which.\n\nThink of it as a \"logical flow map\" instead of digging through trace details one by one.\n\nBuilt-in support for LangGraph, AutoGen, CrewAI, OpenAI Agents, and Agno. For custom agents or hybrid setups, just add two span attributes to the components you want visualized.\n\nLearn more in our docs:\nhttps://t.co/MvXi2iyQFk",
+    "created_at": "2025-11-28T17:00:28.000Z",
+    "author_id": "1219862691109429248",
+    "public_metrics": {
+      "retweet_count": 1,
+      "reply_count": 0,
+      "like_count": 3,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 235
+    }
+  },
+  {
+    "id": "1994088932439675154",
+    "text": "Arize AX Monitors let you set up alerts for the metrics that actually matter in your LLM apps: latency spikes, hallucination rates, eval failures, error counts, token usage, you name it.\n\nYou've got two paths:\n➡️ Custom monitors for tracking exactly what you care about (like \"alert me if % hallucinated goes above 10%\")\n➡️ Managed monitors for one-click setup on the basics like latency and error count.\n\nEverything is threshold-based, so you get notified the moment something drifts outside acceptable ranges. Great for catching issues before your users do.\n\nLearn more:\nhttps://t.co/HKt364JghS",
+    "created_at": "2025-11-27T17:00:24.000Z",
+    "author_id": "1219862691109429248",
+    "public_metrics": {
+      "retweet_count": 1,
+      "reply_count": 5,
+      "like_count": 1,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 168
+    }
+  },
+  {
+    "id": "1993405033174778349",
+    "text": "RT @ArizePhoenix: 🚀 New feature Alert: Dataset Splits 🚀\n\nSplits let you define named subsets of your dataset (e.g., train, hard_examples) a…",
+    "created_at": "2025-11-25T19:42:50.000Z",
+    "author_id": "1219862691109429248",
+    "public_metrics": {
+      "retweet_count": 4,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 0
+    },
+    "retweet": {
+      "original_author_username": "ArizePhoenix",
+      "original_author_name": "arize-phoenix",
+      "original_text": "🚀 New feature Alert: Dataset Splits 🚀\n\nSplits let you define named subsets of your dataset (e.g., train, hard_examples) and filter your experiments to run only on those subsets.\n\nLearn more & Check out this walkthrough:\n⚪️ Create a split directly in the Phoenix UI\n⚪️ Fetching that split down into your code \n⚪️ Running an experiment scoped to that subset\n⚪️ Inspecting how metrics shift when isolating difficult examples\n\n👉 Full demo + code inside the video below"
+    }
+  },
+  {
+    "id": "1993054738875867507",
+    "text": "Run Prompt Learning in Arize AX!\n\nhttps://t.co/m7bGCoHB3n https://t.co/dX7whalkUS",
+    "created_at": "2025-11-24T20:30:53.000Z",
+    "author_id": "1219862691109429248",
+    "public_metrics": {
+      "retweet_count": 1,
+      "reply_count": 5,
+      "like_count": 1,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 183
+    },
+    "urls": [
+      {
+        "display_url": "arize.com/docs/ax/prompt…",
+        "expanded_url": "https://arize.com/docs/ax/prompts/prompt-optimization",
+        "title": "Prompt Optimization - Arize AX Docs"
+      }
+    ]
+  },
+  {
+    "id": "1993047433094602871",
+    "text": "The team is gearing up for an epic @AWSreInvent! We have fun happenings all week (chocolate tastings, dinners, happy hours) — join us! https://t.co/4OXOUPNk0t https://t.co/D55pdfOrco",
+    "created_at": "2025-11-24T20:01:51.000Z",
+    "author_id": "1219862691109429248",
+    "public_metrics": {
+      "retweet_count": 0,
+      "reply_count": 0,
+      "like_count": 2,
+      "quote_count": 0,
+      "bookmark_count": 1,
+      "impression_count": 151
+    },
+    "urls": [
+      {
+        "display_url": "arize.com/aws-reinvent-2…",
+        "expanded_url": "https://arize.com/aws-reinvent-2025",
+        "title": "AWS re:Invent 2025"
+      }
+    ]
+  },
+  {
+    "id": "1991506859224887446",
+    "text": "Gartner customers can download the report here: https://t.co/j7qS3p4Us2 Gartner does not endorse any vendor, product or service depicted in its research publications, and does not advise technology users to select only those vendors with the highest ratings or other designation. Gartner research publications consist of the opinions of Gartner’s research organization and should not be construed as statements of fact. Gartner disclaims all warranties, expressed or implied, with respect to this research, including any warranties of merchantability or fitness for a particular purpose. GARTNER is a registered trademark and service mark of Gartner, Inc. and/or its affiliates in the U.S. and internationally and is used herein with permission. All rights reserved.",
+    "created_at": "2025-11-20T14:00:10.000Z",
+    "author_id": "1219862691109429248",
+    "public_metrics": {
+      "retweet_count": 0,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 273
+    },
+    "urls": [
+      {
+        "display_url": "gartner.com/document/code/…",
+        "expanded_url": "https://www.gartner.com/document/code/840093",
+        "title": "Gartner Login"
+      }
+    ]
+  },
+  {
+    "id": "1991506846549700649",
+    "text": "Arize AX is listed as an Emerging Leader in the \"Emerging Market Quadrant for Generative AI Engineering\" in @Gartner_inc's latest \"Innovation Guide for Generative AI Engineering\" report (13 November). https://t.co/HGuOnAN75V",
+    "created_at": "2025-11-20T14:00:07.000Z",
+    "author_id": "1219862691109429248",
+    "public_metrics": {
+      "retweet_count": 0,
+      "reply_count": 1,
+      "like_count": 0,
+      "quote_count": 0,
+      "bookmark_count": 1,
+      "impression_count": 614
+    }
+  },
+  {
+    "id": "1991231765722345737",
+    "text": "@MSCloud's red teaming agent in Microsoft Foundry generates sophisticated prompts designed to simulate adversarial attacks. Arize AX can help make these vulnerabilities visible and actionable.\n\n🛡️ New blog + notebook outlines how to create self-improving agent security: https://t.co/PS3PiChDhY",
+    "created_at": "2025-11-19T19:47:02.000Z",
+    "author_id": "1219862691109429248",
+    "public_metrics": {
+      "retweet_count": 0,
+      "reply_count": 0,
+      "like_count": 3,
+      "quote_count": 1,
+      "bookmark_count": 0,
+      "impression_count": 91
+    }
+  },
+  {
+    "id": "1990887338101313666",
+    "text": "Microsoft Foundry + Arize AX = everything you need for self-improving agents.\n\nFrom the floor of #MSIgnite, a new @Azure notebook + blog walks through a concrete content safety evaluation example.\n\n📓 Explore: https://t.co/Iiv3IQ8iH8 https://t.co/hzukJ05i37",
+    "created_at": "2025-11-18T20:58:24.000Z",
+    "author_id": "1219862691109429248",
+    "public_metrics": {
+      "retweet_count": 0,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 358
+    },
+    "urls": [
+      {
+        "display_url": "arize.com/blog/evaluatin…",
+        "expanded_url": "https://arize.com/blog/evaluating-and-improving-ai-agents-at-scale-with-microsoft-foundry/",
+        "title": "Evaluating and Improving AI Agents at Scale with Microsoft Foundry"
+      }
+    ]
+  },
+  {
+    "id": "1990827356173578737",
+    "text": "Learn how to build better AI applications with this introduction to LLM-as-a-judge evaluation!\n\nKey takeaways:\n➡️ Start by observing real application data to understand failure modes before defining metrics.\n➡️ Keep metrics specific, answerable, and actionable - avoid catch-all \"quality\" scores or having 10+ overlapping metrics.\n➡️ When writing judge prompts, treat them like human annotation guidelines: keep context under 4K tokens, and don't overthink fancy prompting techniques.\n➡️ Most importantly, create a golden dataset with human annotations to measure judge alignment through meta-evaluation.\n\nElizabeth Hutton emphasizes that imperfect evals beat no evals, and this is an iterative process with two overlapping loops - one improving your application, another improving your evaluations. She also covers when to use code vs human vs LLM evals, explains pairwise vs direct scoring approaches, and shares practical pitfalls to avoid.\n\nCheck out the full video:\nhttps://t.co/3Yvl87xGho",
+    "created_at": "2025-11-18T17:00:04.000Z",
+    "author_id": "1219862691109429248",
+    "public_metrics": {
+      "retweet_count": 1,
+      "reply_count": 0,
+      "like_count": 1,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 340
+    }
+  },
+  {
+    "id": "1990531193784410526",
+    "text": "Check our our blog post that goes more in-depth into Prompt Learning and GEPA: https://t.co/XNoQ6M2sxp\nTry out Prompt Learning! https://t.co/m7bGCoHB3n\nSee the open-source Prompt Learning SDK. https://t.co/nlcTSAypSM",
+    "created_at": "2025-11-17T21:23:13.000Z",
+    "author_id": "1219862691109429248",
+    "public_metrics": {
+      "retweet_count": 0,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "bookmark_count": 1,
+      "impression_count": 177
+    },
+    "urls": [
+      {
+        "display_url": "arize.com/blog/gepa-vs-p…",
+        "expanded_url": "https://arize.com/blog/gepa-vs-prompt-learning-benchmarking-different-prompt-optimization-approaches/",
+        "title": "GEPA vs Prompt Learning: Benchmarking Different Prompt Optimization Approaches"
+      },
+      {
+        "display_url": "arize.com/docs/ax/prompt…",
+        "expanded_url": "https://arize.com/docs/ax/prompts/prompt-optimization",
+        "title": "Prompt Optimization - Arize AX Docs"
+      },
+      {
+        "display_url": "github.com/Arize-ai/promp…",
+        "expanded_url": "https://github.com/Arize-ai/prompt-learning",
+        "title": "GitHub - Arize-ai/prompt-learning"
+      }
+    ]
+  },
+  {
+    "id": "1990531181390278699",
+    "text": "Prompt Learning also ships with no-code optimization in Arize.\nYou can run experiments in the UI, track every iteration in the Prompt Hub, and test new versions in the Prompt Playground.\nGreat for teams who want collaboration + governance without managing a giant text blob in Git.",
+    "created_at": "2025-11-17T21:23:10.000Z",
+    "author_id": "1219862691109429248",
+    "public_metrics": {
+      "retweet_count": 0,
+      "reply_count": 1,
+      "like_count": 0,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 189
+    }
+  }
+]

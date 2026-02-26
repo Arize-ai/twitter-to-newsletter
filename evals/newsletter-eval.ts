@@ -8,205 +8,28 @@ import {
   asExperimentEvaluator,
 } from "@arizeai/phoenix-client/experiments";
 import Anthropic from "@anthropic-ai/sdk";
+import { readFileSync } from "fs";
+import { resolve } from "path";
 import { composeNewsletter } from "@/lib/newsletter";
 import { Tweet } from "@/types";
 
 const anthropicClient = new Anthropic();
 
-// --- Test fixtures ---
+// --- Load real @arizeai tweets from fixtures ---
+// To refresh: npx tsx evals/fetch-tweets.ts
 
-const TECH_TWEETS: Tweet[] = [
-  {
-    id: "1001",
-    text: "Just published a deep dive on vector databases and why they matter for AI applications. Check it out!",
-    created_at: "2025-01-15T10:00:00Z",
-    author_id: "techwriter",
-    public_metrics: {
-      like_count: 142,
-      retweet_count: 38,
-      reply_count: 12,
-      quote_count: 5,
-    },
-    urls: [
-      {
-        display_url: "blog.example.com/vector-db",
-        expanded_url: "https://blog.example.com/vector-databases-deep-dive",
-        title: "Vector Databases: A Deep Dive",
-      },
-    ],
-  },
-  {
-    id: "1002",
-    text: "Hot take: most teams don't need a microservices architecture. A well-structured monolith will serve you better until you hit real scale problems.",
-    created_at: "2025-01-18T14:30:00Z",
-    author_id: "techwriter",
-    public_metrics: {
-      like_count: 523,
-      retweet_count: 89,
-      reply_count: 67,
-      quote_count: 15,
-    },
-  },
-  {
-    id: "1003",
-    text: "Released v2.0 of our open-source observability toolkit. Major improvements to trace visualization and a new plugin system.",
-    created_at: "2025-01-22T09:00:00Z",
-    author_id: "techwriter",
-    public_metrics: {
-      like_count: 201,
-      retweet_count: 55,
-      reply_count: 23,
-      quote_count: 8,
-    },
-    urls: [
-      {
-        display_url: "github.com/example/obs-toolkit",
-        expanded_url:
-          "https://github.com/example/observability-toolkit/releases/tag/v2.0",
-        title: "Observability Toolkit v2.0",
-      },
-    ],
-  },
-];
+const ALL_TWEETS: Tweet[] = JSON.parse(
+  readFileSync(resolve(__dirname, "fixtures", "arizeai-tweets.json"), "utf-8")
+);
 
-const EVENT_TWEETS: Tweet[] = [
-  {
-    id: "2001",
-    text: "Excited to announce I'll be speaking at DevConf 2025 in March! My talk: 'Building Reliable AI Pipelines'. Hope to see you there.",
-    created_at: "2025-01-10T11:00:00Z",
-    author_id: "techwriter",
-    public_metrics: {
-      like_count: 89,
-      retweet_count: 22,
-      reply_count: 15,
-      quote_count: 3,
-    },
-    urls: [
-      {
-        display_url: "devconf2025.com/schedule",
-        expanded_url: "https://devconf2025.com/schedule/ai-pipelines",
-        title: "DevConf 2025 Schedule",
-      },
-    ],
-  },
-  {
-    id: "2002",
-    text: "Great turnout at last night's local Python meetup! We discussed async patterns and had a live coding session. Slides are up.",
-    created_at: "2025-01-20T08:00:00Z",
-    author_id: "techwriter",
-    public_metrics: {
-      like_count: 45,
-      retweet_count: 10,
-      reply_count: 8,
-      quote_count: 1,
-    },
-    urls: [
-      {
-        display_url: "slides.example.com/async",
-        expanded_url: "https://slides.example.com/python-async-patterns",
-        title: "Python Async Patterns Slides",
-      },
-    ],
-  },
-  {
-    id: "2003",
-    text: "Save the date: our team is hosting a free workshop on LLM evaluation best practices on Feb 15th. Registration link below.",
-    created_at: "2025-01-25T16:00:00Z",
-    author_id: "techwriter",
-    public_metrics: {
-      like_count: 156,
-      retweet_count: 42,
-      reply_count: 19,
-      quote_count: 7,
-    },
-    urls: [
-      {
-        display_url: "events.example.com/llm-eval",
-        expanded_url: "https://events.example.com/llm-eval-workshop",
-        title: "LLM Evaluation Workshop",
-      },
-    ],
-  },
-];
+// Split into 5 batches of 20 tweets each
+const TWEETS_BATCH_1 = ALL_TWEETS.slice(0, 20);
+const TWEETS_BATCH_2 = ALL_TWEETS.slice(20, 40);
+const TWEETS_BATCH_3 = ALL_TWEETS.slice(40, 60);
+const TWEETS_BATCH_4 = ALL_TWEETS.slice(60, 80);
+const TWEETS_BATCH_5 = ALL_TWEETS.slice(80, 100);
 
-const MIXED_TWEETS: Tweet[] = [
-  {
-    id: "3001",
-    text: "Spent the weekend refactoring our data pipeline. Went from 45 min processing time to under 3 min. Sometimes the boring work pays off the most.",
-    created_at: "2025-01-12T09:00:00Z",
-    author_id: "techwriter",
-    public_metrics: {
-      like_count: 312,
-      retweet_count: 48,
-      reply_count: 35,
-      quote_count: 10,
-    },
-  },
-  {
-    id: "3002",
-    text: "RT @ai_researcher: Our new paper on constitutional AI training shows 40% improvement in safety benchmarks while maintaining capability. Preprint available.",
-    created_at: "2025-01-16T13:00:00Z",
-    author_id: "techwriter",
-    public_metrics: {
-      like_count: 28,
-      retweet_count: 15,
-      reply_count: 2,
-      quote_count: 0,
-    },
-    retweet: {
-      original_author_username: "ai_researcher",
-      original_author_name: "AI Researcher",
-      original_text:
-        "Our new paper on constitutional AI training shows 40% improvement in safety benchmarks while maintaining capability. Preprint available.",
-    },
-    urls: [
-      {
-        display_url: "arxiv.org/abs/2501.12345",
-        expanded_url: "https://arxiv.org/abs/2501.12345",
-        title: "Constitutional AI Training Improvements",
-      },
-    ],
-  },
-  {
-    id: "3003",
-    text: "Tip: if you're using TypeScript, enable strict mode from day one. The type errors you catch early are worth the initial friction.",
-    created_at: "2025-01-21T15:30:00Z",
-    author_id: "techwriter",
-    public_metrics: {
-      like_count: 198,
-      retweet_count: 41,
-      reply_count: 27,
-      quote_count: 6,
-    },
-  },
-  {
-    id: "3004",
-    text: "RT @devtools_weekly: The 2025 State of Developer Tools survey is live! Help us understand how the ecosystem is evolving.",
-    created_at: "2025-01-28T10:00:00Z",
-    author_id: "techwriter",
-    public_metrics: {
-      like_count: 12,
-      retweet_count: 8,
-      reply_count: 1,
-      quote_count: 0,
-    },
-    retweet: {
-      original_author_username: "devtools_weekly",
-      original_author_name: "DevTools Weekly",
-      original_text:
-        "The 2025 State of Developer Tools survey is live! Help us understand how the ecosystem is evolving.",
-    },
-    urls: [
-      {
-        display_url: "survey.devtools.com/2025",
-        expanded_url: "https://survey.devtools.com/2025",
-        title: "2025 State of Developer Tools Survey",
-      },
-    ],
-  },
-];
-
-const TEST_USERNAME = "techwriter";
+const TEST_USERNAME = "arizeai";
 
 // --- Helper: extract all URLs from markdown ---
 
@@ -416,26 +239,34 @@ async function main() {
   const client = createClient();
 
   // Static dataset name — created once and reused across runs
-  const datasetName = "ds-newsletter-eval";
+  const datasetName = "ds-newsletter-arizeai-100";
   // Each experiment gets a unique timestamp
-  const experimentName = `exp-newsletter-eval-${Date.now()}`;
+  const experimentName = `exp-newsletter-arizeai-${Date.now()}`;
 
   const { datasetId } = await createOrGetDataset({
     client,
     name: datasetName,
-    description: "Test tweet sets for newsletter generation evaluation",
+    description: "Real @arizeai tweets for newsletter generation evaluation",
     examples: [
       {
-        input: { tweets: TECH_TWEETS, username: TEST_USERNAME },
-        metadata: { category: "tech" },
+        input: { tweets: TWEETS_BATCH_1, username: TEST_USERNAME },
+        metadata: { category: "batch_1" },
       },
       {
-        input: { tweets: EVENT_TWEETS, username: TEST_USERNAME },
-        metadata: { category: "events" },
+        input: { tweets: TWEETS_BATCH_2, username: TEST_USERNAME },
+        metadata: { category: "batch_2" },
       },
       {
-        input: { tweets: MIXED_TWEETS, username: TEST_USERNAME },
-        metadata: { category: "mixed" },
+        input: { tweets: TWEETS_BATCH_3, username: TEST_USERNAME },
+        metadata: { category: "batch_3" },
+      },
+      {
+        input: { tweets: TWEETS_BATCH_4, username: TEST_USERNAME },
+        metadata: { category: "batch_4" },
+      },
+      {
+        input: { tweets: TWEETS_BATCH_5, username: TEST_USERNAME },
+        metadata: { category: "batch_5" },
       },
     ],
   });
