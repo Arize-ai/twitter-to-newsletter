@@ -12,6 +12,8 @@
 .DS_Store
 *.pem
 
+
+
 # debug
 npm-debug.log*
 
@@ -22,3 +24,6 @@ npm-debug.log*
 *.tsbuildinfo
 next-env.d.ts
 .vercel
+
+.cursor
+.agent
