@@ -198,7 +198,7 @@ export default function AppShell() {
         </>
       ) : (
         <div className="tab-content">
-          <TemplateEditor />
+          <TemplateEditor username={auth.username || ''} />
         </div>
       )}
     </div>

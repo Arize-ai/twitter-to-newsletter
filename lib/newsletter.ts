@@ -35,7 +35,7 @@ function formatTweetForPrompt(tweet: Tweet, username: string): string {
 export async function composeNewsletter(tweets: Tweet[], username: string): Promise<string> {
   const tweetBlock = tweets.map((t, i) => `Tweet ${i + 1}:\n${formatTweetForPrompt(t, username)}`).join('\n\n');
 
-  const rawTemplate = await readTemplate();
+  const rawTemplate = await readTemplate(username);
   const template = rawTemplate.replaceAll('{username}', username);
 
   const message = await anthropic.messages.create({

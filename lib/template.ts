@@ -1,6 +1,8 @@
 import { Redis } from '@upstash/redis';
 
-const TEMPLATE_KEY = 'newsletter-template';
+function templateKey(username: string): string {
+  return `newsletter-template:${username}`;
+}
 
 export const DEFAULT_TEMPLATE = `# Monthly Content Roundup
 
@@ -33,17 +35,17 @@ function getRedis(): Redis | null {
   return new Redis({ url, token });
 }
 
-export async function readTemplate(): Promise<string> {
+export async function readTemplate(username: string): Promise<string> {
   const redis = getRedis();
   if (!redis) return DEFAULT_TEMPLATE;
 
-  const content = await redis.get<string>(TEMPLATE_KEY);
+  const content = await redis.get<string>(templateKey(username));
   return content ?? DEFAULT_TEMPLATE;
 }
 
-export async function writeTemplate(content: string): Promise<void> {
+export async function writeTemplate(username: string, content: string): Promise<void> {
   const redis = getRedis();
   if (!redis) throw new Error('KV_REST_API_URL and KV_REST_API_TOKEN must be set');
 
-  await redis.set(TEMPLATE_KEY, content);
+  await redis.set(templateKey(username), content);
 }

@@ -2,13 +2,13 @@
 
 import { useState, useEffect } from 'react';
 
-export default function TemplateEditor() {
+export default function TemplateEditor({ username }: { username: string }) {
   const [content, setContent] = useState('');
   const [loadStatus, setLoadStatus] = useState<'loading' | 'ready' | 'error'>('loading');
   const [saveStatus, setSaveStatus] = useState<'idle' | 'saving' | 'saved' | 'error'>('idle');
 
   useEffect(() => {
-    fetch('/api/template')
+    fetch(`/api/template?username=${encodeURIComponent(username)}`)
       .then((res) => {
         if (!res.ok) throw new Error('Failed to load');
         return res.json();
@@ -20,7 +20,7 @@ export default function TemplateEditor() {
       .catch(() => {
         setLoadStatus('error');
       });
-  }, []);
+  }, [username]);
 
   const handleSave = async () => {
     setSaveStatus('saving');
@@ -28,7 +28,7 @@ export default function TemplateEditor() {
       const res = await fetch('/api/template', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ content }),
+        body: JSON.stringify({ username, content }),
       });
       if (!res.ok) throw new Error('Failed to save');
       setSaveStatus('saved');
