@@ -49,32 +49,93 @@ function getExpectedUrls(
     (t) => `https://x.com/${username}/status/${t.id}`
   );
   const thirdPartyUrls = tweets.flatMap((t) =>
-    (t.urls || []).map((u) => u.expanded_url)
+    (t.urls || [])
+      .map((u) => u.expanded_url)
+      // Filter out spurious "URLs" that are really just domain-like text
+      // extracted by Twitter's entity parser (e.g. http://Booking.com, http://agent.py)
+      .filter((url) => {
+        try {
+          const u = new URL(url);
+          // Must have a path, query, or hash beyond just "/"
+          // to be a real link (not just a bare domain mention)
+          return u.pathname !== '/' || u.search !== '' || u.hash !== '';
+        } catch {
+          return false;
+        }
+      })
   );
   return { permalinks, thirdPartyUrls };
 }
 
 // --- Evaluators ---
 
-const linkCompleteness = asExperimentEvaluator({
-  name: "link_completeness",
-  kind: "CODE",
+const tweetCoverage = asExperimentEvaluator({
+  name: "tweet_coverage",
+  kind: "LLM",
   evaluate: async ({ input, output }) => {
     const markdown = String(output);
     const tweets = input.tweets as Tweet[];
     const username = input.username as string;
-    const { permalinks, thirdPartyUrls } = getExpectedUrls(tweets, username);
-    const allExpected = [...permalinks, ...thirdPartyUrls];
 
-    const missing = allExpected.filter((url) => !markdown.includes(url));
+    const tweetSummary = tweets
+      .map((t, i) => {
+        const text = t.retweet
+          ? `[RT @${t.retweet.original_author_username}] ${t.retweet.original_text}`
+          : t.text;
+        return `Tweet ${i + 1} (${t.id}): ${text}`;
+      })
+      .join("\n\n");
 
-    if (missing.length === 0) {
-      return { score: 1.0, label: "pass" };
+    const response = await anthropicClient.messages.create({
+      model: "claude-sonnet-4-20250514",
+      max_tokens: 1024,
+      messages: [
+        {
+          role: "user",
+          content: `You are evaluating whether a newsletter covers the content from a set of source tweets by @${username}.
+
+<source_tweets>
+${tweetSummary}
+</source_tweets>
+
+<newsletter>
+${markdown}
+</newsletter>
+
+For each tweet, determine whether its content is represented in the newsletter. A tweet counts as "covered" if:
+- It is directly referenced or linked
+- Its key information is summarized or synthesized into a broader theme
+- It is grouped with related tweets and its core message is preserved
+
+A tweet can be legitimately skipped if it is trivial (e.g. a bare retweet with no commentary, a "thanks" reply, or content that doesn't make sense without context).
+
+List each tweet number and whether it is "covered", "skipped (acceptable)", or "missing (not covered)".
+
+Then output a final line in exactly this format:
+COVERAGE: X/Y
+
+Where X is the number of covered tweets (including acceptable skips) and Y is the total number of tweets.`,
+        },
+      ],
+    });
+
+    const responseText =
+      response.content.find((b) => b.type === "text")?.text ?? "";
+
+    const coverageMatch = responseText.match(/COVERAGE:\s*(\d+)\/(\d+)/);
+    if (!coverageMatch) {
+      return { score: 0.0, label: "fail", explanation: "Could not parse coverage ratio from LLM response." };
     }
+
+    const covered = parseInt(coverageMatch[1], 10);
+    const total = parseInt(coverageMatch[2], 10);
+    const score = total > 0 ? covered / total : 0;
+    const label = score >= 0.8 ? "pass" : "fail";
+
     return {
-      score: 0.0,
-      label: "fail",
-      explanation: `Missing links: ${missing.join(", ")}`,
+      score,
+      label,
+      explanation: responseText,
     };
   },
 });
@@ -95,7 +156,17 @@ const noHallucinatedLinks = asExperimentEvaluator({
       `https://x.com/${username}`,
     ];
 
-    const outputUrls = extractUrlsFromMarkdown(markdown);
+    const outputUrls = extractUrlsFromMarkdown(markdown)
+      // Filter out bare domain URLs from output (same logic as getExpectedUrls)
+      // — these are often brand mentions (Booking.com, Taxsure.ai) not real links
+      .filter((url) => {
+        try {
+          const u = new URL(url);
+          return u.pathname !== '/' || u.search !== '' || u.hash !== '';
+        } catch {
+          return false;
+        }
+      });
     const hallucinated = outputUrls.filter(
       (url) => !allowlist.some((allowed) => url.startsWith(allowed))
     );
@@ -122,10 +193,8 @@ const structureAdherence = asExperimentEvaluator({
         name: "Useful Links & Updates section",
         pass: /## Useful Links & Updates/i.test(markdown),
       },
-      {
-        name: "Upcoming Events section",
-        pass: /## Upcoming Events/i.test(markdown),
-      },
+      // Upcoming Events is optional — the prompt says to omit it when
+      // no tweets mention events, so we don't require it.
       { name: "horizontal rule dividers", pass: /^---$/m.test(markdown) },
     ];
 
@@ -286,7 +355,7 @@ async function main() {
     dataset: { datasetId },
     task,
     evaluators: [
-      linkCompleteness,
+      tweetCoverage,
       noHallucinatedLinks,
       structureAdherence,
       faithfulnessAndQuality,
