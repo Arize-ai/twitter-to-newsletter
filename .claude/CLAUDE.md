@@ -1,4 +1,26 @@
 <!-- arize-coder-managed -->
+# Project Overview
+
+Twitter to Newsletter — a Next.js app that pulls tweets via Twitter OAuth, lets users select them, and uses Claude to compose a themed monthly newsletter in Markdown.
+
+Key files:
+- `lib/newsletter.ts` — Claude-powered newsletter composer with prompt injection guardrails
+- `lib/template.ts` — Per-account template storage (Upstash Redis)
+- `lib/twitter.ts` — Twitter OAuth + tweet fetching
+- `evals/newsletter-eval.ts` — Phoenix evaluation suite (coverage, faithfulness, link accuracy, structure)
+- `app/components/LoginButton.tsx` — Landing page (logged-out view)
+- `app/components/AppShell.tsx` — Main app state orchestrator
+
+## Prompt Security
+
+The newsletter prompt in `lib/newsletter.ts` has guardrails against prompt injection:
+- Tweet text is sanitized: triple backticks collapsed, role markers disrupted with zero-width spaces
+- Tweet data is wrapped in `<tweets>` XML tags to separate data from instructions
+- System prompt explicitly labels tweet content as untrusted and instructs the model to ignore embedded instructions
+- URLs are restricted to structured metadata fields (`Tweet URL:` and `Links in tweet:`) — raw URLs in tweet text are excluded
+
+When modifying the newsletter prompt, preserve these guardrails.
+
 # Arize Phoenix Configuration
 
 IMPORTANT: The Phoenix API key and endpoint are already configured. Do NOT look for them in .env files, environment variables, or ask the user for them. Use these exact values directly.
